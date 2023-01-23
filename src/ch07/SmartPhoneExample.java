@@ -1,17 +1,17 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class SmartPhoneExample {
   public static void main(String[] args) {
-    // SmartPhone 객체 생성
-    SmartPhone myPhone = new SmartPhone("갤럭시", "은색");
+    // SmartPhone 媛앹껜 �깮�꽦
+    SmartPhone myPhone = new SmartPhone("媛ㅻ윮�떆", "���깋");
 
-    // Phone으로부터 상속받은 필드 읽기
-    System.out.println("모델: " + myPhone.model);
-    System.out.println("색상: " + myPhone.color);
+    // Phone�쑝濡쒕��꽣 �긽�냽諛쏆� �븘�뱶 �씫湲�
+    System.out.println("紐⑤뜽: " + myPhone.model);
+    System.out.println("�깋�긽: " + myPhone.color);
   }
 }
 
-// Phone(String model, String color) 생성자 실행
-// SmartPhone(String model, String color) 생성자 실행
-// 모델: 갤럭시
-// 색상: 은색
+// Phone(String model, String color) �깮�꽦�옄 �떎�뻾
+// SmartPhone(String model, String color) �깮�꽦�옄 �떎�뻾
+// 紐⑤뜽: 媛ㅻ윮�떆
+// �깋�긽: ���깋

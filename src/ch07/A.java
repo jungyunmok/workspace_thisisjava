@@ -1,14 +1,14 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class A {
-  // 필드 선언
+  // �븘�뱶 �꽑�뼵
   protected String field;
 
-  // 생성자 선언
+  // �깮�꽦�옄 �꽑�뼵
   protected A() {
   }
 
-  // 메소드 선언
+  // 硫붿냼�뱶 �꽑�뼵
   protected void method() {
   }
 }

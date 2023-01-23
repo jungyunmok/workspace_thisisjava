@@ -1,20 +1,20 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class ComputerExample {
   public static void main(String[] args) {
     int r = 10;
 
     Caculator caculator = new Caculator();
-    System.out.println("원의 면적: " + caculator.areaCircle(r));
+    System.out.println("�썝�쓽 硫댁쟻: " + caculator.areaCircle(r));
     System.out.println();
 
     Computer computer = new Computer();
-    System.out.println("원의 면적: " + computer.areaCircle(r));
+    System.out.println("�썝�쓽 硫댁쟻: " + computer.areaCircle(r));
   }
 }
 
-// Caculator 객체의 areaCircle() 실행
-// 원의 면적: 314.159
+// Caculator 媛앹껜�쓽 areaCircle() �떎�뻾
+// �썝�쓽 硫댁쟻: 314.159
 
-// Computer 객체의 areaCircle() 실행
-// 원의 면적: 314.1592653589793
+// Computer 媛앹껜�쓽 areaCircle() �떎�뻾
+// �썝�쓽 硫댁쟻: 314.1592653589793

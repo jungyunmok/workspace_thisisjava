@@ -1,10 +1,10 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class Computer extends Caculator {
-  // 메소드 오버라이딩
-  @Override // 컴파일 시 정확히 오버라이딩이 되었는지 체크해줌(생략 가능)
+  // 硫붿냼�뱶 �삤踰꾨씪�씠�뵫
+  @Override // 而댄뙆�씪 �떆 �젙�솗�엳 �삤踰꾨씪�씠�뵫�씠 �릺�뿀�뒗吏� 泥댄겕�빐以�(�깮�왂 媛��뒫)
   public double areaCircle(double r) {
-    System.out.println("Computer 객체의 areaCircle() 실행");
+    System.out.println("Computer 媛앹껜�쓽 areaCircle() �떎�뻾");
     return Math.PI * r * r;
   }
 }

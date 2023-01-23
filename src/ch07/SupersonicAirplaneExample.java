@@ -1,4 +1,4 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class SupersonicAirplaneExample {
   public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class SupersonicAirplaneExample {
   }
 }
 
-// 이륙합니다.
-// 일반 비행합니다.
-// 초음속 비행합니다.
-// 일반 비행합니다.
-// 착륙합니다.
+// �씠瑜숉빀�땲�떎.
+// �씪諛� 鍮꾪뻾�빀�땲�떎.
+// 珥덉쓬�냽 鍮꾪뻾�빀�땲�떎.
+// �씪諛� 鍮꾪뻾�빀�땲�떎.
+// 李⑸쪠�빀�땲�떎.

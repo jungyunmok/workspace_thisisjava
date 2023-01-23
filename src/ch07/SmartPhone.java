@@ -1,9 +1,9 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class SmartPhone extends Phone {
-  // 자식 생성자 선언
+  // �옄�떇 �깮�꽦�옄 �꽑�뼵
   public SmartPhone(String model, String color) {
-    super(model, color); // 반드시 작성해야 함
-    System.out.println("SmartPhone(String model, String color) 생성자 실행");
+    super(model, color); // 諛섎뱶�떆 �옉�꽦�빐�빞 �븿
+    System.out.println("SmartPhone(String model, String color) �깮�꽦�옄 �떎�뻾");
   }
 }

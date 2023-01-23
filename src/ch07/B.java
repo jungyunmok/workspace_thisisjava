@@ -1,7 +1,7 @@
-package dev_java.this_is_java.ch07; //A와 같은 패키지에서 protected 접근 가능
+package ch07; //A�� 媛숈� �뙣�궎吏��뿉�꽌 protected �젒洹� 媛��뒫
 
 public class B {
-  // 메소드 선언
+  // 硫붿냼�뱶 �꽑�뼵
   public void method() {
     A a = new A();
     a.field = "value";

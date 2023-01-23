@@ -1,4 +1,4 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public final class Member {
 }

@@ -1,20 +1,20 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class SupersonicAirplane extends Airplane {
-  // 상수 선언
+  // �긽�닔 �꽑�뼵
   public static final int NOMAL = 1;
   public static final int SUPERSONIC = 2;
 
-  // 상태 필드 선언
+  // �긽�깭 �븘�뱶 �꽑�뼵
   public int flyMode = NOMAL;
 
-  // 메소드 재정의
+  // 硫붿냼�뱶 �옱�젙�쓽
   @Override
   public void fly() {
     if (flyMode == SUPERSONIC) {
-      System.out.println("초음속 비행합니다.");
+      System.out.println("珥덉쓬�냽 鍮꾪뻾�빀�땲�떎.");
     } else {
-      // Airplane 객체의 fly() 메소드 호출
+      // Airplane 媛앹껜�쓽 fly() 硫붿냼�뱶 �샇異�
       super.fly();
     }
   }

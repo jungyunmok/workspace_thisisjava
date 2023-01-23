@@ -1,4 +1,4 @@
-package dev_java.this_is_java.ch07;
+package ch07;
 
 public class SportsCar extends Car{
   @Override
@@ -6,11 +6,11 @@ public class SportsCar extends Car{
     speed += 10;
   }
 
-  // Car 클래스의 stop() 메소드를 final로 선언했기에
-  // 자식 클래스인 SportCar에서 stop() 메소드를 오버라이딩 할 수 없음!
+  // Car �겢�옒�뒪�쓽 stop() 硫붿냼�뱶瑜� final濡� �꽑�뼵�뻽湲곗뿉
+  // �옄�떇 �겢�옒�뒪�씤 SportCar�뿉�꽌 stop() 硫붿냼�뱶瑜� �삤踰꾨씪�씠�뵫 �븷 �닔 �뾾�쓬!
   // @Override
   // public void stop() {
-  //   System.out.println("스포츠카를 멈충");
+  //   System.out.println("�뒪�룷痢좎뭅瑜� 硫덉땐");
   //   speed = 0;
   // }
 }
