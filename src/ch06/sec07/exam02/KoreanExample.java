@@ -1,31 +1,31 @@
 package ch06.sec07.exam02;
-
+ 
 public class KoreanExample {
 	public static void main(String[] args) {
-//		Korean °´Ã¼ »ı¼º
-		Korean k1 = new Korean("¹ÚÀÚ¹Ù", "011225-1234567");
+//		Korean ê°ì²´ ìƒì„±
+		Korean k1 = new Korean("ë°•ìë°”", "011225-1234567");
 		
-//		Korean °´Ã¼ µ¥ÀÌÅÍ ÀĞ±â
+//		Korean ê°ì²´ ë°ì´í„° ì½ê¸°
 		System.out.println("k1.nation: " + k1.nation);
 		System.out.println("k1.name: " + k1.name);
 		System.out.println("k1.ssn: " + k1.ssn);
 		System.out.println();
 		
-//		¶Ç ´Ù¸¥ Korean °´Ã¼ »ı¼º
-		Korean k2 = new Korean("±èÀÚ¹Ù", "930525-0654321");
+//		ë˜ ë‹¤ë¥¸ Korean ê°ì²´ ìƒì„±
+		Korean k2 = new Korean("ê¹€ìë°”", "930525-0654321");
 		
-//		¶Ç ´Ù¸¥ Korean °´Ã¼ µ¥ÀÌÅÍ ÀĞ±â
+//		ë˜ ë‹¤ë¥¸ Korean ê°ì²´ ë°ì´í„° ì½ê¸°
 		System.out.println("k2.nation: " + k2.nation);
 		System.out.println("k2.name: " + k2.name);
 		System.out.println("k2.ssn: " + k2.ssn);
 		System.out.println();
 	}
 	
-//	k1.nation: ´ëÇÑ¹Î±¹
-//	k1.name: ¹ÚÀÚ¹Ù
+//	k1.nation: ëŒ€í•œë¯¼êµ­
+//	k1.name: ë°•ìë°”
 //	k1.ssn: 011225-1234567
 //
-//	k2.nation: ´ëÇÑ¹Î±¹
-//	k2.name: ±èÀÚ¹Ù
+//	k2.nation: ëŒ€í•œë¯¼êµ­
+//	k2.name: ê¹€ìë°”
 //	k2.ssn: 930525-0654321
 }

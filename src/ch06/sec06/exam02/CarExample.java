@@ -1,25 +1,25 @@
 package ch06.sec06.exam02;
-
+ 
 public class CarExample {
 	public static void main(String[] args) {
-		Car myCar = new Car(); //Car °´Ã¼ »ı¼º
+		Car myCar = new Car(); //Car ê°ì²´ ìƒì„±
 		
-//		Car °´Ã¼ÀÇ ÇÊµå°ª ÀĞ±â
-		System.out.println("Á¦ÀÛÈ¸»ç: " + myCar.company);
-		System.out.println("¸ğµ¨¸í: " + myCar.model);
-		System.out.println("»ö±ò: " + myCar.color);
-		System.out.println("ÃÖ°í¼Óµµ: " + myCar.maxSpeed);
-		System.out.println("ÇöÀç¼Óµµ: " + myCar.speed);
+//		Car ê°ì²´ì˜ í•„ë“œê°’ ì½ê¸°
+		System.out.println("ì œì‘íšŒì‚¬: " + myCar.company);
+		System.out.println("ëª¨ë¸ëª…: " + myCar.model);
+		System.out.println("ìƒ‰ê¹”: " + myCar.color);
+		System.out.println("ìµœê³ ì†ë„: " + myCar.maxSpeed);
+		System.out.println("í˜„ì¬ì†ë„: " + myCar.speed);
 		
-//		Car °´Ã¼ÀÇ ÇÊµå°ª º¯°æ
+//		Car ê°ì²´ì˜ í•„ë“œê°’ ë³€ê²½
 		myCar.speed = 60;
-		System.out.println("¼öÁ¤µÈ ¼Óµµ: " + myCar.speed);
+		System.out.println("ìˆ˜ì •ëœ ì†ë„: " + myCar.speed);
 	}
 	
-//	Á¦ÀÛÈ¸»ç: Çö´ëÀÚµ¿Â÷
-//	¸ğµ¨¸í: ±×·£Àú
-//	»ö±ò: °ËÁ¤
-//	ÃÖ°í¼Óµµ: 350
-//	ÇöÀç¼Óµµ: 0
-//	¼öÁ¤µÈ ¼Óµµ: 60
+//	ì œì‘íšŒì‚¬: í˜„ëŒ€ìë™ì°¨
+//	ëª¨ë¸ëª…: ê·¸ëœì €
+//	ìƒ‰ê¹”: ê²€ì •
+//	ìµœê³ ì†ë„: 350
+//	í˜„ì¬ì†ë„: 0
+//	ìˆ˜ì •ëœ ì†ë„: 60
 }

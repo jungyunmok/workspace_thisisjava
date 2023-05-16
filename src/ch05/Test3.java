@@ -1,12 +1,12 @@
 package ch05;
-
+ 
 import java.util.Scanner;
-
+ 
 public class Test3 {
 	public static void main(String[] args) {
-//		Å°º¸µå·ÎºÎÅÍ ÇÐ»ý ¼ö¿Í °¢ ÇÐ»ýµéÀÇ Á¡¼ö¸¦ ÀÔ·Â¹Þ°í
-//		while¹®°ú ScannerÀÇ nextLine() ¸Þ¼Òµå¸¦ ÀÌ¿ëÇØ
-//		ÃÖ°í Á¡¼ö¿Í Æò±Õ Á¡¼ö¸¦ Ãâ·ÂÇÏ´Â ÄÚµå
+//		í‚¤ë³´ë“œë¡œë¶€í„° í•™ìƒ ìˆ˜ì™€ ê° í•™ìƒë“¤ì˜ ì ìˆ˜ë¥¼ ìž…ë ¥ë°›ê³ 
+//		whileë¬¸ê³¼ Scannerì˜ nextLine() ë©”ì†Œë“œë¥¼ ì´ìš©í•´
+//		ìµœê³  ì ìˆ˜ì™€ í‰ê·  ì ìˆ˜ë¥¼ ì¶œë ¥í•˜ëŠ” ì½”ë“œ
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
 		
@@ -15,13 +15,13 @@ public class Test3 {
 		
 		while(run) {
 			System.out.println("----------");
-			System.out.println("1.ÇÐ»ý¼ö | 2.Á¡¼öÀÔ·Â | 3.Á¡¼ö¸®½ºÆ® | 4.ºÐ¼® | 5.Á¾·á");
+			System.out.println("1.í•™ìƒìˆ˜ | 2.ì ìˆ˜ìž…ë ¥ | 3.ì ìˆ˜ë¦¬ìŠ¤íŠ¸ | 4.ë¶„ì„ | 5.ì¢…ë£Œ");
 			System.out.println("----------");
-			System.out.print("¼±ÅÃ> ");
-			int selectNum = scanner.nextInt(); //ÀÔ·Â¹ÞÀº ¼ýÀÚ¿Í studentNum°ú ÀÏÄ¡½ÃÅ°±âÀ§ÇØ int·Î ¼±¾ð
+			System.out.print("ì„ íƒ> ");
+			int selectNum = scanner.nextInt(); //ìž…ë ¥ë°›ì€ ìˆ«ìžì™€ studentNumê³¼ ì¼ì¹˜ì‹œí‚¤ê¸°ìœ„í•´ intë¡œ ì„ ì–¸
 			
 			if(selectNum == 1) {
-				System.out.print("ÇÐ»ý¼ö>");
+				System.out.print("í•™ìƒìˆ˜>");
 				studentNum = scanner.nextInt();
 				scores = new int[studentNum];
 			} else if(selectNum == 2) {
@@ -37,16 +37,16 @@ public class Test3 {
 				int max = 0;
 				int sum = 0;
 				for(int i=0; i<scores.length; i++) {
-					max = (max<scores[i])? scores[i] : max; //ÃÖ°íÁ¡¼ö °í¸£±â
+					max = (max<scores[i])? scores[i] : max; //ìµœê³ ì ìˆ˜ ê³ ë¥´ê¸°
 					sum += scores[i];
 				}
 				double avg = sum / studentNum;
-				System.out.println("ÃÖ°í Á¡¼ö: " + max);
-				System.out.println("Æò±Õ Á¡¼ö: " + avg);
+				System.out.println("ìµœê³  ì ìˆ˜: " + max);
+				System.out.println("í‰ê·  ì ìˆ˜: " + avg);
 			} else if(selectNum == 5) {
 				run = false;
 			}
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 	}
 }

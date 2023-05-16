@@ -1,9 +1,9 @@
 package ch07.sec10.exam02;
-
+ 
 public class Dog extends Animal{
-//	Ãß»ó ¸Ş¼Òµå ÀçÁ¤ÀÇ
+//	ì¶”ìƒ ë©”ì†Œë“œ ì¬ì •ì˜
 	@Override
 	public void sound() {
-		System.out.println("¸Û¸Û");
+		System.out.println("ë©ë©");
 	}
 }

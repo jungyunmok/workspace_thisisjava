@@ -1,12 +1,12 @@
 package ch02.sec11;
-
+ 
 public class VariableScoreExample {
-
+ 
 	public static void main(String[] args) {
 		int v1 = 15;
 		if(v1 > 10) {
 			int v2 = v1 - 10;
 		}
-//		int v3 = v1 + v2 + 5; //ÄÄÆÄÀÏ ¿¡·¯! v2 º¯¼ö¸¦ »ç¿ëÇÒ ¼ö ¾øÀ½!!
+//		int v3 = v1 + v2 + 5; //ì»´íŒŒì¼ ì—ëŸ¬! v2 ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ!!
 	}
 }

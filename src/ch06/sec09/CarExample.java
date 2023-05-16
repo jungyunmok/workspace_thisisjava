@@ -1,10 +1,10 @@
 package ch06.sec09;
-
+ 
 public class CarExample {
-
+ 
 	public static void main(String[] args) {
-		Car myCar = new Car("Æ÷¸£½¦");
-		Car yourCar = new Car("º¥Ã÷");
+		Car myCar = new Car("í¬ë¥´ì‰");
+		Car yourCar = new Car("ë²¤ì¸ ");
 		
 		myCar.run();
 		yourCar.run();

@@ -1,24 +1,25 @@
 package ch04.sec03;
-
+ 
 public class SwitchNoBreakCaseExample {
 	public static void main(String[] args) {
-		int time = (int)(Math.random()*4) + 8; //8~11 »çÀÌÀÇ Á¤¼ö »Ì±â
-		System.out.println("[ÇöÀç ½Ã°£: " +time + "½Ã]");
+		int time = (int)(Math.random()*4) + 8; //8~11 ì‚¬ì´ì˜ ì •ìˆ˜ ë½‘ê¸°
+		System.out.println("[í˜„ì¬ ì‹œê°„: " +time + "ì‹œ]");
 		
 		switch(time) {
 		case 8:
-			System.out.println("Ãâ±ÙÇÕ´Ï´Ù.");
+			System.out.println("ì¶œê·¼í•©ë‹ˆë‹¤.");
 		case 9:
-			System.out.println("È¸ÀÇ¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("íšŒì˜ë¥¼ í•©ë‹ˆë‹¤.");
 		case 10:
-			System.out.println("¾÷¹«¸¦ º¾´Ï´Ù.");
+			System.out.println("ì—…ë¬´ë¥¼ ë´…ë‹ˆë‹¤.");
 		default:
-			System.out.println("¿Ü±ÙÀ» ³ª°©´Ï´Ù.");
+			System.out.println("ì™¸ê·¼ì„ ë‚˜ê°‘ë‹ˆë‹¤.");
 			
-//		[ÇöÀç ½Ã°£: 9½Ã]
-//		È¸ÀÇ¸¦ ÇÕ´Ï´Ù.
-//		¾÷¹«¸¦ º¾´Ï´Ù.
-//		¿Ü±ÙÀ» ³ª°©´Ï´Ù.
+//    breakê°€ ì—†ì–´ caseê°€ ì „ë¶€ ì‹¤í–‰ë¨
+//		[í˜„ì¬ ì‹œê°„: 9ì‹œ]
+//		íšŒì˜ë¥¼ í•©ë‹ˆë‹¤.
+//		ì—…ë¬´ë¥¼ ë´…ë‹ˆë‹¤.
+//		ì™¸ê·¼ì„ ë‚˜ê°‘ë‹ˆë‹¤.
 		}
 	}
 }

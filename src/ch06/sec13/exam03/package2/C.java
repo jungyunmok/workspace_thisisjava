@@ -1,20 +1,20 @@
-package ch06.sec13.exam03.package2; //A, B¿Í ´Ù¸¥ ÆĞÅ°Áö
-
+package ch06.sec13.exam03.package2; //A, Bì™€ ë‹¤ë¥¸ íŒ¨í‚¤ì§€
+ 
 import ch06.sec13.exam03.package1.A;
-
+ 
 public class C {
 	public C() {
-//		°´Ã¼ »ı¼º
+//		ê°ì²´ ìƒì„±
 		A a = new A();
 		
-//		ÇÊµå°ª º¯°æ
+//		í•„ë“œê°’ ë³€ê²½
 		a.field1 = 1;
-//		a.field2 = 1; //ÄÄÆÄÀÏ ¿¡·¯, default ÇÊµå Á¢±Ù ºÒ°¡
-//		a.field3 = 1; //private ÇÇµå Á¢±Ù ºÒ°¡
+//		a.field2 = 1; //ì»´íŒŒì¼ ì—ëŸ¬, default í•„ë“œ ì ‘ê·¼ ë¶ˆê°€
+//		a.field3 = 1; //private í”¼ë“œ ì ‘ê·¼ ë¶ˆê°€
 		
-//		¸Ş¼Òµå È£Ãâ
+//		ë©”ì†Œë“œ í˜¸ì¶œ
 		a.method1();
-//		a.method2(); //ÄÄÆÄÀÏ ¿¡·¯, default ¸Ş¼Òµå Á¢±Ù ºÒ°¡
-//		a.method3(); //ÄÄÆÄÀÏ ¿¡·¯, private ¸Ş¼Òµå Á¢±Ù ºÒ°¡
+//		a.method2(); //ì»´íŒŒì¼ ì—ëŸ¬, default ë©”ì†Œë“œ ì ‘ê·¼ ë¶ˆê°€
+//		a.method3(); //ì»´íŒŒì¼ ì—ëŸ¬, private ë©”ì†Œë“œ ì ‘ê·¼ ë¶ˆê°€
 	}
 }

@@ -1,20 +1,20 @@
 package ch06.sec13.exam02.package1;
-
+ 
 public class A {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	A a1 = new A(true);
 	A a2 = new A(1);
-	A a3 = new A("¹®ÀÚ¿­");
+	A a3 = new A("ë¬¸ìì—´");
 	
-//	public Á¢±Ù Á¦ÇÑ »ı¼ºÀÚ ¼±¾ğ
+//	public ì ‘ê·¼ ì œí•œ ìƒì„±ì ì„ ì–¸
 	public A(boolean b) {
 	}
 	
-//	default Á¢±Ù Á¦ÇÑ »ı¼ºÀÚ ¼±¾ğ
+//	default ì ‘ê·¼ ì œí•œ ìƒì„±ì ì„ ì–¸
 	A(int b) {
 	}
 	
-//	private Á¢±Ù Á¦ÇÑ »ı¼ºÀÚ ¼±¾ğ
+//	private ì ‘ê·¼ ì œí•œ ìƒì„±ì ì„ ì–¸
 	private A(String s) {
 	}
 }

@@ -1,5 +1,5 @@
 package ch03.sec06;
-
+ 
 public class CompareOperatorExample {
 	public static void main(String[] args) {
 		int num1 = 10;
@@ -28,7 +28,7 @@ public class CompareOperatorExample {
 		System.out.println(result6); //false
 		System.out.println(result7); //true
 		
-		String str1 = "ÀÚ¹Ù";
+		String str1 = "ìë°”";
 		String str2 = "Java";
 		boolean result8 = (str1.equals(str2));
 		boolean result9 = (! str1.equals(str2));

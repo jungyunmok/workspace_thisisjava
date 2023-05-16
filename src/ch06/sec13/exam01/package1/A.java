@@ -1,4 +1,4 @@
 package ch06.sec13.exam01.package1;
-
-class A { //default Á¢±Ù Á¦ÇÑ
+ 
+class A { //default ì ‘ê·¼ ì œí•œ
 }

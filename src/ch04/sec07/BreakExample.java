@@ -1,14 +1,14 @@
 package ch04.sec07;
-
+ 
 public class BreakExample {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		while(true) {
-			int num = (int)(Math.random()*6) + 1; //ÁÖ»çÀ§ 1~6 »Ì±â
+			int num = (int)(Math.random()*6) + 1; //ì£¼ì‚¬ìœ„ 1~6 ë½‘ê¸°
 			System.out.println(num);
 			if(num == 6) {
-				break; //6ÀÌ ³ª¿À¸é while¹® Á¾·á
+				break; //6ì´ ë‚˜ì˜¤ë©´ whileë¬¸ ì¢…ë£Œ
 			}
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

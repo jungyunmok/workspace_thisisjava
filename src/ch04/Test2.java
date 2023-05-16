@@ -1,8 +1,8 @@
 package ch04;
-
-public class test2 {
+ 
+public class Test2 {
 	public static void main(String[] args) {
-		//for¹®À» ÀÌ¿ëÇØ 1~100±îÁö Á¤¼ö Áß 3ÀÇ ¹è¼öÀÇ ÃÑÇÕÀ» Ãâ·ÂÇÏ±â
+		//forë¬¸ì„ ì´ìš©í•´ 1~100ê¹Œì§€ ì •ìˆ˜ ì¤‘ 3ì˜ ë°°ìˆ˜ì˜ ì´í•©ì„ ì¶œë ¥í•˜ê¸°
 		int sum = 0;
 		
 		for(int i=1; i<=100; i++) {

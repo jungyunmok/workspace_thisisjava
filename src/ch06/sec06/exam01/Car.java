@@ -1,7 +1,7 @@
 package ch06.sec06.exam01;
-
+ 
 public class Car {
-//	ÇÊµå ¼±¾ð
+//	í•„ë“œ ì„ ì–¸
 	String model;
 	boolean start;
 	int speed;

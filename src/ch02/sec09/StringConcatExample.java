@@ -1,19 +1,19 @@
 package ch02.sec09;
-
+ 
 public class StringConcatExample {
 	public static void main(String[] args) {
-		//¼ıÀÚ ¿¬»ê
+		//ìˆ«ì ì—°ì‚°
 		int result1 = 10 + 2 + 8;
 		System.out.println(result1); //20
 		
-		//°áÇÕ ¿¬»ê		
+		//ê²°í•© ì—°ì‚°		
 		String result2 = 10 + 2 + "8";
 		System.out.println(result2); //128
 		
 		String result3 = 10 + "2" + "8";
 		System.out.println(result3); //1028
 		
-		String result4 = "10" + 2 + 8; //°áÇÕ ¿¬»ê µÚ´Â °è¼Ó °áÇÕ ¿¬»ê
+		String result4 = "10" + 2 + 8; //ê²°í•© ì—°ì‚° ë’¤ëŠ” ê³„ì† ê²°í•© ì—°ì‚°
 		System.out.println(result4); //1028
 		
 		String result5 = "10" + (2 + 8);

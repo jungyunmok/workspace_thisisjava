@@ -1,12 +1,12 @@
 package ch07.sec08.exam01;
-
+ 
 public class Car {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	public Tire tire;
 	
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void run() {
-//		tire ÇÊµå¿¡ ´ëÀÔµÈ °´Ã¼ÀÇ roll()¸Ş¼Òµå È£Ãâ
+//		tire í•„ë“œì— ëŒ€ì…ëœ ê°ì²´ì˜ roll()ë©”ì†Œë“œ í˜¸ì¶œ
 		tire.roll();
 	}
 }

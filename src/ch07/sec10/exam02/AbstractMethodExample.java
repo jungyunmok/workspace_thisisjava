@@ -1,21 +1,21 @@
 package ch07.sec10.exam02;
-
+ 
 public class AbstractMethodExample {
 	public static void main(String[] args) {
 		Dog dog = new Dog();
-		dog.sound(); // ¸Û¸Û
+		dog.sound(); // ë©ë©
 		
 		Cat cat = new Cat();
-		cat.sound(); // ¾ß¿Ë
+		cat.sound(); // ì•¼ì˜¹
 		
-//		¸Å°³º¯¼öÀÇ ´ÙÇü¼º
-		animalSound(new Dog()); // ÀÚµ¿ Å¸ÀÔ º¯È¯
-		animalSound(new Cat()); // ÀÚµ¿ Å¸ÀÔ º¯È¯
-//		¸Û¸Û
-//		¾ß¿Ë
+//		ë§¤ê°œë³€ìˆ˜ì˜ ë‹¤í˜•ì„±
+		animalSound(new Dog()); // ìë™ íƒ€ì… ë³€í™˜
+		animalSound(new Cat()); // ìë™ íƒ€ì… ë³€í™˜
+//		ë©ë©
+//		ì•¼ì˜¹
 	}
 	
 	public static void animalSound(Animal animal) {
-		animal.sound(); // ÀçÁ¤ÀÇµÈ ¸Ş¼Òµå È£Ãâ
+		animal.sound(); // ì¬ì •ì˜ëœ ë©”ì†Œë“œ í˜¸ì¶œ
 	}
 }

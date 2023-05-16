@@ -1,12 +1,12 @@
 package ch06.sec07.exam03;
-
+ 
 public class Korean {
-//	ÇÊµå ¼±¾ğ
-	String nation = "´ëÇÑ¹Î±¹";
+//	í•„ë“œ ì„ ì–¸
+	String nation = "ëŒ€í•œë¯¼êµ­";
 	String name;
 	String ssn;
 	
-//	»ı¼ºÀÚ ¼±¾ğ
+//	ìƒì„±ì ì„ ì–¸
 	public Korean(String name, String ssn) {
 		this.name = name;
 		this.ssn = ssn;

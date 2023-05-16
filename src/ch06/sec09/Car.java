@@ -1,23 +1,23 @@
 package ch06.sec09;
-
+ 
 public class Car {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	String model;
 	int speed;
 	
-//	»ı¼ºÀÚ ¼±¾ğ
+//	ìƒì„±ì ì„ ì–¸
 	Car(String model) {
-		this.model = model; //¸Å°³º¯¼ö¸¦ ÇÊµå¿¡ ´ëÀÔ(this »ı·« ºÒ°¡)
+		this.model = model; //ë§¤ê°œë³€ìˆ˜ë¥¼ í•„ë“œì— ëŒ€ì…(this ìƒëµ ë¶ˆê°€)
 	}
 	
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	void setSpeed(int speed) {
-		this.speed = speed; //¸Å°³º¯¼ö¸¦ ÇÊµå¿¡ ´ëÀÔ(this »ı·« ºÒ°¡)
+		this.speed = speed; //ë§¤ê°œë³€ìˆ˜ë¥¼ í•„ë“œì— ëŒ€ì…(this ìƒëµ ë¶ˆê°€)
 	}
 	
-//	¾Æ·¡ÀÇ thisµéÀº »ı·« °¡´É
+//	ì•„ë˜ì˜ thisë“¤ì€ ìƒëµ ê°€ëŠ¥
 	void run() {
 		this.setSpeed(100);
-		System.out.println(this.model + "°¡ ´Ş¸³´Ï´Ù. (½Ã¼Ó: " + this.speed + "km/h)");
+		System.out.println(this.model + "ê°€ ë‹¬ë¦½ë‹ˆë‹¤. (ì‹œì†: " + this.speed + "km/h)");
 	}
 }

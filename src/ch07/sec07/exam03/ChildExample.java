@@ -1,21 +1,21 @@
 package ch07.sec07.exam03;
-
+ 
 public class ChildExample {
 	public static void main(String[] args) {
-		// °´Ã¼ »ı¼º ¹× ÀÚµ¿ Å¸ÀÔ º¯È¯
+		// ê°ì²´ ìƒì„± ë° ìë™ íƒ€ì… ë³€í™˜
 //		Parent parent = new Child();
-
-		// Parent Å¸ÀÔÀ¸·Î ¸Ş¼Òµå »ç¿ë
+ 
+		// Parent íƒ€ì…ìœ¼ë¡œ ë©”ì†Œë“œ ì‚¬ìš©
 //		parent.field1 = "data1";
 //		parent.method1();
 //		parent.method2();
-//		parent.field2 = "data2"; ºÒ°¡´É!
-//		parent.method3(); ºÒ°¡´É!
-
-		// °­Á¦ Å¸ÀÔ º¯È¯
+//		parent.field2 = "data2"; ë¶ˆê°€ëŠ¥!
+//		parent.method3(); ë¶ˆê°€ëŠ¥!
+ 
+		// ê°•ì œ íƒ€ì… ë³€í™˜
 //		Child child = (Child) parent;
-
-		// Child Å¸ÀÔÀ¸·Î ÇÊµå¿Í ¸Ş¼Òµå »ç¿ë
+ 
+		// Child íƒ€ì…ìœ¼ë¡œ í•„ë“œì™€ ë©”ì†Œë“œ ì‚¬ìš©
 //		child.field2 = "data2";
 //		child.method3();
 	}

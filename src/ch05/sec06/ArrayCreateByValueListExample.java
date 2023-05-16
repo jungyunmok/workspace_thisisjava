@@ -1,31 +1,31 @@
 package ch05.sec06;
-
+ 
 public class ArrayCreateByValueListExample {
 	public static void main(String[] args) {
-//		¹è¿­ º¯¼ö ¼±¾ğ°ú ¹è¿­ »ı¼º
+//		ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
 		String[] season = { "Spring", "Summer", "Fall", "Winter" };
 		
-//		¹è¿­ÀÇ Ç×¸ñ°ª ÀĞ±â
+//		ë°°ì—´ì˜ í•­ëª©ê°’ ì½ê¸°
 		System.out.println(season[0]); //Spring
 		System.out.println(season[1]); //Summer
 		System.out.println(season[2]); //Fall
 		System.out.println(season[3]); //Winter
 		
-//		ÀÎµ¦½º 1¹ø Ç×¸ñÀÇ °ª º¯°æ
-		season[1] = "¿©¸§";
-		System.out.println(season[1]); //¿©¸§
+//		ì¸ë±ìŠ¤ 1ë²ˆ í•­ëª©ì˜ ê°’ ë³€ê²½
+		season[1] = "ì—¬ë¦„";
+		System.out.println(season[1]); //ì—¬ë¦„
 		System.out.println();
 		
-//		¹è¿­ º¯¼ö ¼±¾ğ°ú ¹è¿­ »ı¼º
+//		ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
 		int[] scores = { 83, 90, 87};
 		
-//		ÃÑÇÕ°ú Æò±Õ ±¸ÇÏ±â
+//		ì´í•©ê³¼ í‰ê·  êµ¬í•˜ê¸°
 		int sum = 0;
 		for(int i=0; i<3; i++) {
 			sum += scores[i];
 		}
-		System.out.println("ÃÑÇÕ: " + sum); //260
+		System.out.println("ì´í•©: " + sum); //260
 		double avg = (double) sum / 3;
-		System.out.println("Æò±Õ " + avg); //86.66666666666667
+		System.out.println("í‰ê·  " + avg); //86.66666666666667
 	}
 }

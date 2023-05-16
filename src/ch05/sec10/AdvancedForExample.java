@@ -1,19 +1,19 @@
 package ch05.sec10;
-
+ 
 public class AdvancedForExample {
-
+ 
 	public static void main(String[] args) {
-		int[] scores = { 95, 71, 84, 93, 87 }; //¹è¿¬ º¯¼ö ¼±¾ğ°ú ¹è¿­ »ı¼º
+		int[] scores = { 95, 71, 84, 93, 87 }; //ë°°ì—° ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
 		
-//		¹è¿­ Ç×¸ñ ÀüÃ¼ ÇÕ ±¸ÇÏ±â
+//		ë°°ì—´ í•­ëª© ì „ì²´ í•© êµ¬í•˜ê¸°
 		int sum = 0;
-		for(int score : scores) { //5Ç×¸ñÀÌ ÇÑ ¹ø¾¿ score º¯¼ö¿¡
-			sum = sum + score; //ÀúÀåµÇ°í sum¿¡ ´©ÀûµÊ(¹İº¹ È½¼ö: 5)
+		for(int score : scores) { //5í•­ëª©ì´ í•œ ë²ˆì”© score ë³€ìˆ˜ì—
+			sum = sum + score; //ì €ì¥ë˜ê³  sumì— ëˆ„ì ë¨(ë°˜ë³µ íšŸìˆ˜: 5)
 		}
-		System.out.println("Á¡¼ö ÃÑÇÕ= " + sum); //430
+		System.out.println("ì ìˆ˜ ì´í•©= " + sum); //430
 		
-//		¹è¿­ Ç×¸ñ ÀüÃ¼ Æò±Õ ±¸ÇÏ±â
+//		ë°°ì—´ í•­ëª© ì „ì²´ í‰ê·  êµ¬í•˜ê¸°
 		double avg = (double) sum / scores.length;
-		System.out.println("Á¡¼ö Æò±Õ= " + avg); //86.0
+		System.out.println("ì ìˆ˜ í‰ê· = " + avg); //86.0
 	}
 }

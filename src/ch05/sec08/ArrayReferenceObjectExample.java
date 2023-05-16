@@ -1,5 +1,5 @@
 package ch05.sec08;
-
+ 
 public class ArrayReferenceObjectExample {
 	public static void main(String[] args) {
 		String[] strArray = new String[3];
@@ -7,8 +7,8 @@ public class ArrayReferenceObjectExample {
 		strArray[1] = "Java";
 		strArray[2] = new String("Java");
 		
-		System.out.println( strArray[0] == strArray[1] ); //true, °°Àº °´Ã¼ ÂüÁ¶
-		System.out.println( strArray[0] == strArray[2] ); //false, ´Ù¸¥ °´Ã¼ ÂüÁ¶
-		System.out.println( strArray[0].equals(strArray[2]) ); //true, ¹®ÀÚ¿­ÀÌ µ¿ÀÏ
+		System.out.println( strArray[0] == strArray[1] ); //true, ê°™ì€ ê°ì²´ ì°¸ì¡°
+		System.out.println( strArray[0] == strArray[2] ); //false, ë‹¤ë¥¸ ê°ì²´ ì°¸ì¡°
+		System.out.println( strArray[0].equals(strArray[2]) ); //true, ë¬¸ìì—´ì´ ë™ì¼
 	}
 }

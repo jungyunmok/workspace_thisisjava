@@ -1,11 +1,11 @@
 package ch06.sec12.kumho;
-
-//import ¹®À¸·Î ´Ù¸¥ ÆĞÅ°Áö Å¬·¡½º »ç¿ëÀ» ¸í½Ã
+ 
+//import ë¬¸ìœ¼ë¡œ ë‹¤ë¥¸ íŒ¨í‚¤ì§€ í´ë˜ìŠ¤ ì‚¬ìš©ì„ ëª…ì‹œ
 import ch06.sec12.hankook.SnowTire;
 import ch06.sec12.kumho.AllSeasonTire;
-
+ 
 public class Car {
-//	ºÎÇ° ÇÊµå ¼±¾ğ
+//	ë¶€í’ˆ í•„ë“œ ì„ ì–¸
 	ch06.sec12.hankook.Tire tire1 = new ch06.sec12.hankook.Tire();
 	ch06.sec12.kumho.Tire tire2 = new ch06.sec12.kumho.Tire();
 	SnowTire tire3 = new SnowTire();

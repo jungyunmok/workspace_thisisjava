@@ -1,6 +1,6 @@
 package ch04;
-
-public class test7 {
+ 
+public class Test7 {
 	public static void main(String[] args) {
 //		**** 
 //		**** 
@@ -67,7 +67,7 @@ public class test7 {
             for(int j=0; j<3-i; j++) {
                 System.out.print(" ");
             }
-            for(int j=0; j<i*2+1; j++) { //³ª¸ÓÁö º° ÇÑ¹æ¿¡Ã¤¿ì±â.
+            for(int j=0; j<i*2+1; j++) { //ë‚˜ë¨¸ì§€ ë³„ í•œë°©ì—ì±„ìš°ê¸°.
                 System.out.print("*"); 
             }
             System.out.println();

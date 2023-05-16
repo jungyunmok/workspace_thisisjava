@@ -1,12 +1,12 @@
 package ch06.sec11.exam02;
-
+ 
 public class EarthExample {
 	public static void main(String[] args) {
-//		»ó¼ö ÀĞ±â
-		System.out.println("Áö±¸ÀÇ ¹İÁö¸§: " + Earth.EARTH_RADIUS + "km");
-		System.out.println("Áö±¸ÀÇ Ç¥¸éÀû: " + Earth.EARTH_SURFACE_AREA + "km^2");
+//		ìƒìˆ˜ ì½ê¸°
+		System.out.println("ì§€êµ¬ì˜ ë°˜ì§€ë¦„: " + Earth.EARTH_RADIUS + "km");
+		System.out.println("ì§€êµ¬ì˜ í‘œë©´ì : " + Earth.EARTH_SURFACE_AREA + "km^2");
 	}
 	
-//	Áö±¸ÀÇ ¹İÁö¸§: 6400.0km
-//	Áö±¸ÀÇ Ç¥¸éÀû: 5.147185403641517E8km^2
+//	ì§€êµ¬ì˜ ë°˜ì§€ë¦„: 6400.0km
+//	ì§€êµ¬ì˜ í‘œë©´ì : 5.147185403641517E8km^2
 }

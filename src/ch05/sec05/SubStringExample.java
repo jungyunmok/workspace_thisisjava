@@ -1,13 +1,13 @@
 package ch05.sec05;
-
+ 
 public class SubStringExample {
 	public static void main(String[] args) {
 		String ssn = "880815-1234567";
 		
-		String firstNum = ssn.substring(0, 6); //0~5±îÁö Ãâ·Â
+		String firstNum = ssn.substring(0, 6); //0~5ê¹Œì§€ ì¶œë ¥
 		System.out.println(firstNum); //880815
 		
-		String secondNum = ssn.substring(7); //7~³¡±îÁö Ãâ·Â
+		String secondNum = ssn.substring(7); //7~ëê¹Œì§€ ì¶œë ¥
 		System.out.println(secondNum); //1234567
 	}
 }

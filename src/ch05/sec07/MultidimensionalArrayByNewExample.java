@@ -1,20 +1,20 @@
 package ch05.sec07;
-
+ 
 public class MultidimensionalArrayByNewExample {
 	public static void main(String[] args) {
-//		°¢ ¹İÀÇ ÇĞ»ı ¼ö°¡ 3¸íÀ¸·Î µ¿ÀÏÇÒ °æ¿ì Á¡¼ö ÀúÀåÀ» À§ÇÑ 2Â÷¿ø ¹è¿­ »ı¼º
+//		ê° ë°˜ì˜ í•™ìƒ ìˆ˜ê°€ 3ëª…ìœ¼ë¡œ ë™ì¼í•  ê²½ìš° ì ìˆ˜ ì €ì¥ì„ ìœ„í•œ 2ì°¨ì› ë°°ì—´ ìƒì„±
 		int[][] mathScores = new int[2][3];
 		
-//		¹è¿­ Ç×¸ñ ÃÊ±â°ª Ãâ·Â
-		for(int i=0; i<mathScores.length; i++) { //¹İÀÇ ¼ö¸¸Å­ ¹İº¹
-			for(int k=0; k<mathScores[i].length; k++) { //ÇØ´ç ¹İÀÇ ÇĞ»ı ¼ö¸¸Å­ ¹İº¹
+//		ë°°ì—´ í•­ëª© ì´ˆê¸°ê°’ ì¶œë ¥
+		for(int i=0; i<mathScores.length; i++) { //ë°˜ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µ
+			for(int k=0; k<mathScores[i].length; k++) { //í•´ë‹¹ ë°˜ì˜ í•™ìƒ ìˆ˜ë§Œí¼ ë°˜ë³µ
 				System.out.println("mathScores[" + i + "][" + k + "]: " +
 				mathScores[i][k]);
 			}
 		}
 		System.out.println();
 		
-//		¹è¿­ Ç×¸ñ °ª º¯°æ
+//		ë°°ì—´ í•­ëª© ê°’ ë³€ê²½
 		mathScores[0][0] = 80;
 		mathScores[0][1] = 83;
 		mathScores[0][2] = 85;
@@ -22,28 +22,28 @@ public class MultidimensionalArrayByNewExample {
 		mathScores[1][1] = 90;
 		mathScores[1][2] = 92;
 		
-//		ÀüÃ¼ ÇĞ»ıÀÇ ¼öÇĞ Æò±Õ ±¸ÇÏ±â
+//		ì „ì²´ í•™ìƒì˜ ìˆ˜í•™ í‰ê·  êµ¬í•˜ê¸°
 		int totalStudent = 0;
 		int totalMathSum = 0;
-		for(int i=0; i<mathScores.length; i++) { //¹İÀÇ ¼ö¸¸Å­ ¹İº¹
-			totalStudent += mathScores[i].length; //¹İÀÇ ÇĞ»ı ¼ö ÇÕ»ê
-			for(int k=0; k<mathScores[i].length; k++) { //ÇØ´ç ¹İÀÇ ÇĞ»ı ¼ö¸¸Å­ ¹İº¹
-				totalMathSum += mathScores[i][k]; //ÇĞ»ı Á¡¼ö ÇÕ»ê
+		for(int i=0; i<mathScores.length; i++) { //ë°˜ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µ
+			totalStudent += mathScores[i].length; //ë°˜ì˜ í•™ìƒ ìˆ˜ í•©ì‚°
+			for(int k=0; k<mathScores[i].length; k++) { //í•´ë‹¹ ë°˜ì˜ í•™ìƒ ìˆ˜ë§Œí¼ ë°˜ë³µ
+				totalMathSum += mathScores[i][k]; //í•™ìƒ ì ìˆ˜ í•©ì‚°
 			}
 		}
 		double totalMathAvg = (double) totalMathSum / totalStudent;
-		System.out.println("ÀüÃ¼ ÇĞ»ıÀÇ ¼öÇĞ Æò±Õ Á¡¼ö: " + totalMathAvg);
+		System.out.println("ì „ì²´ í•™ìƒì˜ ìˆ˜í•™ í‰ê·  ì ìˆ˜: " + totalMathAvg);
 		System.out.println();
 		
 		
-//		°¢ ¹İÀÇ ÇĞ»ı ¼ö°¡ ´Ù¸¦ °æ¿ì Á¡¼ö ÀúÀåÀ» À§ÇÑ 2Â÷¿ø ¹è¿­ »ı¼º
+//		ê° ë°˜ì˜ í•™ìƒ ìˆ˜ê°€ ë‹¤ë¥¼ ê²½ìš° ì ìˆ˜ ì €ì¥ì„ ìœ„í•œ 2ì°¨ì› ë°°ì—´ ìƒì„±
 		int[][] englishScores = new int[2][];
 		englishScores[0] = new int[2];
 		englishScores[1] = new int[3];
 		
-//		¹è¿­ Ç×¸ñ ÃÊ±â°ª Ãâ·Â
-		for(int i=0; i<englishScores.length; i++) { //¹İÀÇ ¼ö¸¸Å­ ¹İº¹
-			for(int k=0; k<englishScores[i].length; k++) { //ÇØ´ç ¹İÀÇ ÇĞ»ı ¼ö¸¸Å­ ¹İº¹
+//		ë°°ì—´ í•­ëª© ì´ˆê¸°ê°’ ì¶œë ¥
+		for(int i=0; i<englishScores.length; i++) { //ë°˜ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µ
+			for(int k=0; k<englishScores[i].length; k++) { //í•´ë‹¹ ë°˜ì˜ í•™ìƒ ìˆ˜ë§Œí¼ ë°˜ë³µ
 				System.out.println("englishScores[" + i + "][" + k + "]: " +
 				englishScores[i][k]);
 				
@@ -51,24 +51,24 @@ public class MultidimensionalArrayByNewExample {
 		}
 		System.out.println();
 		
-//		¹è¿­ Ç×¸ñ °ª º¯°æ
+//		ë°°ì—´ í•­ëª© ê°’ ë³€ê²½
 		englishScores[0][0] = 90;
 		englishScores[0][1] = 91;
 		englishScores[1][0] = 92;
 		englishScores[1][1] = 93;
 		englishScores[1][2] = 94;
 		
-//		ÀüÃ¼ ÇĞ»ıÀÇ ¿µ¾î Æò±Õ ±¸ÇÏ±â
+//		ì „ì²´ í•™ìƒì˜ ì˜ì–´ í‰ê·  êµ¬í•˜ê¸°
 		totalStudent = 0;
 		int totalEnglishSum = 0;
-		for(int i=0; i<englishScores.length; i++) { //¹İÀÇ ¼ö¸¸Å­ ¹İº¹
-			totalStudent += englishScores[i].length; //¹İÀÇ ÇĞ»ı ¼ö ÇÕ»ê
-			for(int k=0; k<englishScores[i].length; k++) { //ÇØ´ç ¹İÀÇ ÇĞ»ı ¼ö¸¸Å­ ¹İº¹
+		for(int i=0; i<englishScores.length; i++) { //ë°˜ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µ
+			totalStudent += englishScores[i].length; //ë°˜ì˜ í•™ìƒ ìˆ˜ í•©ì‚°
+			for(int k=0; k<englishScores[i].length; k++) { //í•´ë‹¹ ë°˜ì˜ í•™ìƒ ìˆ˜ë§Œí¼ ë°˜ë³µ
 				totalEnglishSum += englishScores[i][k];
 			}
 		}
 		double totalEnglishAvg = (double) totalEnglishSum / totalStudent;
-		System.out.println("ÀüÃ¼ ÇĞ»ıÀÇ ¿µ¾î Æò±Õ Á¡¼ö: " + totalEnglishAvg);
+		System.out.println("ì „ì²´ í•™ìƒì˜ ì˜ì–´ í‰ê·  ì ìˆ˜: " + totalEnglishAvg);
 		
 //		mathScores[0][0]: 0
 //		mathScores[0][1]: 0
@@ -77,7 +77,7 @@ public class MultidimensionalArrayByNewExample {
 //		mathScores[1][1]: 0
 //		mathScores[1][2]: 0
 //
-//		ÀüÃ¼ ÇĞ»ıÀÇ ¼öÇĞ Æò±Õ Á¡¼ö: 86.0
+//		ì „ì²´ í•™ìƒì˜ ìˆ˜í•™ í‰ê·  ì ìˆ˜: 86.0
 //
 //		englishScores[0][0]: 0
 //		englishScores[0][1]: 0
@@ -85,6 +85,6 @@ public class MultidimensionalArrayByNewExample {
 //		englishScores[1][1]: 0
 //		englishScores[1][2]: 0
 //
-//		ÀüÃ¼ ÇĞ»ıÀÇ ¿µ¾î Æò±Õ Á¡¼ö: 92.0
+//		ì „ì²´ í•™ìƒì˜ ì˜ì–´ í‰ê·  ì ìˆ˜: 92.0
 	}
 }

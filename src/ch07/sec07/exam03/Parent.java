@@ -1,15 +1,15 @@
 package ch07.sec07.exam03;
-
+ 
 public class Parent {
-	// ÇÊµå ¼±¾ð
+	// í•„ë“œ ì„ ì–¸
 	public String field1;
-
-	// ¸Þ¼Òµå ¼±¾ð
+ 
+	// ë©”ì†Œë“œ ì„ ì–¸
 	public void method1() {
 		System.out.println("Parent-method1()");
 	}
-
-	// ¸Þ¼Òµå ¼±¾ð
+ 
+	// ë©”ì†Œë“œ ì„ ì–¸
 	public void method2() {
 		System.out.println("Parent-method2()");
 	}

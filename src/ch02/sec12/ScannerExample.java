@@ -1,33 +1,33 @@
 package ch02.sec12;
-
+ 
 import java.util.Scanner;
-
+ 
 public class ScannerExample {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("x °ª ÀÔ·Â: ");
+		System.out.print("x ê°’ ì…ë ¥: ");
 		String strX = scanner.nextLine();
 		int x = Integer.parseInt(strX);
 		
-		System.out.print("y °ª ÀÔ·Â: ");
+		System.out.print("y ê°’ ì…ë ¥: ");
 		String strY = scanner.nextLine();
 		int y = Integer.parseInt(strY);
 		
 		int result = x + y;
-		System.out.println("X + y: " + result);
+		System.out.println("x + y: " + result);
 		System.out.println();
 		
-		while(true) { //Áß°ıÈ£ {} ¾ÈÀ» ¹«ÇÑÈ÷ ¹İº¹ ½ÇÇà
-			System.out.print("ÀÔ·Â ¹®ÀÚ¿­: ");
+		while(true) { //ì¤‘ê´„í˜¸ {} ì•ˆì„ ë¬´í•œíˆ ë°˜ë³µ ì‹¤í–‰
+			System.out.print("ì…ë ¥ ë¬¸ìì—´: ");
 			String data = scanner.nextLine();
-			if(data.equals("q")) { //ÀÔ·Â ¹®ÀÚ¿­ÀÌ q¶ó¸é ¹İº¹À» ÁßÁö
+			if(data.equals("q")) { //ì…ë ¥ ë¬¸ìì—´ì´ që¼ë©´ ë°˜ë³µì„ ì¤‘ì§€
 				break;
 			}
-			System.out.println("Ãâ·Â ¹®ÀÚ¿­: " + data);
+			System.out.println("ì¶œë ¥ ë¬¸ìì—´: " + data);
 			System.out.println();
 		}
 		
-		System.out.println("Á¾·á");
+		System.out.println("ì¢…ë£Œ");
 	}
 }

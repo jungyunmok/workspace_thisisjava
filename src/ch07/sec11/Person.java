@@ -1,11 +1,11 @@
 package ch07.sec11;
-
+ 
 public sealed class Person permits Employee, Manager {
-//	ÇÊµå
+//	í•„ë“œ
 	public String name;
-
-//	¸Ş¼Òµå
+ 
+//	ë©”ì†Œë“œ
 	public void work() {
-		System.out.println("ÇÏ´Â ÀÏÀÌ °áÁ¤µÇÁö ¾Ê¾Ò½À´Ï´Ù.");
+		System.out.println("í•˜ëŠ” ì¼ì´ ê²°ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
 	}
 }

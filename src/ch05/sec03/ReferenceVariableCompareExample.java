@@ -1,16 +1,16 @@
 package ch05.sec03;
-
+ 
 public class ReferenceVariableCompareExample {
 	public static void main(String[] args) {
-		int[] arr1; //¹è¿­ º¯¼ö arr1 ¼±¾ğ
-		int[] arr2; //¹è¿­ º¯¼ö arr2 ¼±¾ğ
-		int[] arr3; //¹è¿­ º¯¼ö arr3 ¼±¾ğ
+		int[] arr1; //ë°°ì—´ ë³€ìˆ˜ arr1 ì„ ì–¸
+		int[] arr2; //ë°°ì—´ ë³€ìˆ˜ arr2 ì„ ì–¸
+		int[] arr3; //ë°°ì—´ ë³€ìˆ˜ arr3 ì„ ì–¸
 		
-		arr1 = new int[] {1, 2, 3}; //¹è¿­ {1, 2, 3}À» »ı¼ºÇØ arr1 º¯¼ö¿¡ ´ëÀÔ
-		arr2 = new int[] {1, 2, 3}; //¹è¿­ {1, 2, 3}À» »ı¼ºÇØ arr2 º¯¼ö¿¡ ´ëÀÔ
-		arr3 = arr2; //¹è¿­ º¯¼ö arr2 °ªÀ» ¹è¿­ º¯¼ö arr3¿¡ ´ëÀÔ
+		arr1 = new int[] {1, 2, 3}; //ë°°ì—´ {1, 2, 3}ì„ ìƒì„±í•´ arr1 ë³€ìˆ˜ì— ëŒ€ì…
+		arr2 = new int[] {1, 2, 3}; //ë°°ì—´ {1, 2, 3}ì„ ìƒì„±í•´ arr2 ë³€ìˆ˜ì— ëŒ€ì…
+		arr3 = arr2; //ë°°ì—´ ë³€ìˆ˜ arr2 ê°’ì„ ë°°ì—´ ë³€ìˆ˜ arr3ì— ëŒ€ì…
 		
-		System.out.println(arr1 == arr2); //false, 1°ú 2°¡ °°Àº ¹è¿­À» ÂüÁ¶ÇÏÁö ¾ÊÀ½
-		System.out.println(arr2 == arr3); //true, 2¿Í 3ÀÌ µ¿ÀÏÇÑ ¹è¿­À» ÂüÁ¶ÇÔ
+		System.out.println(arr1 == arr2); //false, 1ê³¼ 2ê°€ ê°™ì€ ë°°ì—´ì„ ì°¸ì¡°í•˜ì§€ ì•ŠìŒ
+		System.out.println(arr2 == arr3); //true, 2ì™€ 3ì´ ë™ì¼í•œ ë°°ì—´ì„ ì°¸ì¡°í•¨
 	}
 }

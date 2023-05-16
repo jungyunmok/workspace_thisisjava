@@ -1,48 +1,48 @@
 package ch05.sec07;
-
+ 
 public class MultidimensionalArrayByValueListExample {
 	public static void main(String[] args) {
-		int[][] scores = { //2Â÷¿ø ¹è¿­ »ı¼º
+		int[][] scores = { //2ì°¨ì› ë°°ì—´ ìƒì„±
 				{ 80, 90, 96 },
 				{ 76, 88 }
 		};
 		
-		System.out.println("1Â÷¿ø ¹è¿­ ±æÀÌ(¹İÀÇ ¼ö): " + scores.length); //2
-		System.out.println("2Â÷¿ø ¹è¿­ ±æÀÌ(Ã¹¹øÂ° ¹İÀÇ ÇĞ»ı ¼ö): " + scores[0].length); //3
-		System.out.println("2Â÷¿ø ¹è¿­ ±æÀÌ(µÎ¹øÂ° ¹İÀÇ ÇĞ»ı ¼ö): " + scores[1].length); //2
+		System.out.println("1ì°¨ì› ë°°ì—´ ê¸¸ì´(ë°˜ì˜ ìˆ˜): " + scores.length); //2
+		System.out.println("2ì°¨ì› ë°°ì—´ ê¸¸ì´(ì²«ë²ˆì§¸ ë°˜ì˜ í•™ìƒ ìˆ˜): " + scores[0].length); //3
+		System.out.println("2ì°¨ì› ë°°ì—´ ê¸¸ì´(ë‘ë²ˆì§¸ ë°˜ì˜ í•™ìƒ ìˆ˜): " + scores[1].length); //2
 		
-//		Ã¹¹øÂ° ¹İÀÇ ¼¼¹øÂ° ÇĞ»ıÀÇ Á¡¼ö
+//		ì²«ë²ˆì§¸ ë°˜ì˜ ì„¸ë²ˆì§¸ í•™ìƒì˜ ì ìˆ˜
 		System.out.println(scores[0][2]); //96
 		
-//		µÎ¹øÂ° ¹İÀÇ µÎ¹øÂ° ÇĞ»ıÀÇ Á¡¼ö
+//		ë‘ë²ˆì§¸ ë°˜ì˜ ë‘ë²ˆì§¸ í•™ìƒì˜ ì ìˆ˜
 		System.out.println(scores[1][1]); //88
 		
-//		Ã¹¹øÂ° ¹İÀÇ Æò±Õ Á¡¼ö
+//		ì²«ë²ˆì§¸ ë°˜ì˜ í‰ê·  ì ìˆ˜
 		int class1Sum = 0;
 		for(int i=0; i<scores[0].length; i++) {
 			class1Sum += scores[0][i];
 		}
 		double class1Avg = (double) class1Sum / scores[0].length;
-		System.out.println("Ã¹¹ø¤Š ¹İÀÇ Æò±Õ Á¡¼ö: " + class1Avg); //88.66666666666667
+		System.out.println("ì²«ë²ˆì¨° ë°˜ì˜ í‰ê·  ì ìˆ˜: " + class1Avg); //88.66666666666667
 		
-//		µÎ¹øÂ° ¹İÀÇ Æò±Õ Á¡¼ö
+//		ë‘ë²ˆì§¸ ë°˜ì˜ í‰ê·  ì ìˆ˜
 		int class2Sum = 0;
 		for(int i=0; i<scores[1].length; i++) {
 			class2Sum += scores[1][i];
 		}
 		double class2Avg = (double) class2Sum / scores[1].length;
-		System.out.println("µÎ¹øÂ° ¹İÀÇ Æò±Õ Á¡¼ö: " + class2Avg); // 82.0
+		System.out.println("ë‘ë²ˆì§¸ ë°˜ì˜ í‰ê·  ì ìˆ˜: " + class2Avg); // 82.0
 		
-//		ÀüÃ¼ ÇĞ»ıÀÇ Æò±Õ Á¡¼ö
+//		ì „ì²´ í•™ìƒì˜ í‰ê·  ì ìˆ˜
 		int totalStudent = 0;
 		int totalSum = 0;
-		for(int i=0; i<scores.length; i++) { //¹İÀÇ ¼ö¸¸Å­ ¹İº¹
-			totalStudent += scores[i].length; //¹İÀÇ ÇĞ»ı ¼ö ÇÕ»ê
-			for(int k=0; k<scores[i].length; k++) { //ÇØ´ç ¹İÀÇ ÇĞ»ı ¼ö¸¸Å­ ¹İº¹
-				totalSum += scores[i][k]; //ÇĞ»ı Á¡¼ö ÇÕ»ê
+		for(int i=0; i<scores.length; i++) { //ë°˜ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µ
+			totalStudent += scores[i].length; //ë°˜ì˜ í•™ìƒ ìˆ˜ í•©ì‚°
+			for(int k=0; k<scores[i].length; k++) { //í•´ë‹¹ ë°˜ì˜ í•™ìƒ ìˆ˜ë§Œí¼ ë°˜ë³µ
+				totalSum += scores[i][k]; //í•™ìƒ ì ìˆ˜ í•©ì‚°
 			}
 		}
 		double totalAvg = (double) totalSum / totalStudent;
-		System.out.println("ÀüÃ¼ ÇĞ»ıÀÇ Æò±Õ Á¡¼ö: " + totalAvg); //86.0
+		System.out.println("ì „ì²´ í•™ìƒì˜ í‰ê·  ì ìˆ˜: " + totalAvg); //86.0
 	}
 }

@@ -1,16 +1,16 @@
 package ch07.sec09;
-
+ 
 public class Person {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	public String name;
 	
-//	»ı¼ºÀÚ ¼±¾ğ
+//	ìƒì„±ì ì„ ì–¸
 	public Person(String name) {
 		this.name = name;
 	}
 	
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void walk() {
-		System.out.println("°È½À´Ï´Ù.");
+		System.out.println("ê±·ìŠµë‹ˆë‹¤.");
 	}
 }

@@ -1,28 +1,28 @@
 package ch05.sec05;
-
+ 
 public class IndexOfContainsExample {
 	public static void main(String[] args) {
-		String subject = "ÀÚ¹Ù ÇÁ·Î±×·¡¹Ö";
+		String subject = "ìë°” í”„ë¡œê·¸ë˜ë°";
 		
-		int location = subject.indexOf("ÇÁ·Î±×·¡¹Ö");
+		int location = subject.indexOf("í”„ë¡œê·¸ë˜ë°");
 		System.out.println(location);
 		String substring = subject.substring(location); //3
-		System.out.println(substring); //ÇÁ·Î±×·¡¹Ö
+		System.out.println(substring); //í”„ë¡œê·¸ë˜ë°
 		
-		location = subject.indexOf("ÀÚ¹Ù");
+		location = subject.indexOf("ìë°”");
 		if(location != -1) {
-			System.out.println("ÀÚ¹Ù¿Í °ü·ÃµÈ Ã¥ÀÌ±º¿ä.");
+			System.out.println("ìë°”ì™€ ê´€ë ¨ëœ ì±…ì´êµ°ìš”.");
 		} else {
-			System.out.println("ÀÚ¹Ù¿Í °ü·Ã ¾ø´Â Ã¥ÀÌ±º¿ä.");
+			System.out.println("ìë°”ì™€ ê´€ë ¨ ì—†ëŠ” ì±…ì´êµ°ìš”.");
 		}
-//		ÀÚ¹Ù¿Í °ü·ÃµÈ Ã¥ÀÌ±º¿ä.
+//		ìë°”ì™€ ê´€ë ¨ëœ ì±…ì´êµ°ìš”.
 		
-		boolean result = subject.contains("ÀÚ¹Ù");
+		boolean result = subject.contains("ìë°”");
 		if(result) {
-			System.out.println("ÀÚ¹Ù¿Í °ü·ÃµÈ Ã¥ÀÌ±º¿ä.");
+			System.out.println("ìë°”ì™€ ê´€ë ¨ëœ ì±…ì´êµ°ìš”.");
 		} else {
-			System.out.println("ÀÚ¹Ù¿Í °ü·Ã ¾ø´Â Ã¥ÀÌ±º¿ä.");
+			System.out.println("ìë°”ì™€ ê´€ë ¨ ì—†ëŠ” ì±…ì´êµ°ìš”.");
 		}
-//		ÀÚ¹Ù¿Í °ü·ÃµÈ Ã¥ÀÌ±º¿ä.
+//		ìë°”ì™€ ê´€ë ¨ëœ ì±…ì´êµ°ìš”.
 	}
 }

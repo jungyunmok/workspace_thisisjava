@@ -1,23 +1,23 @@
 package ch04.sec02;
-
+ 
 public class IfElseIfElseExample {
 	public static void main(String[] args) {
 		int score = 75;
 		
 		if(score >= 90) {
-			System.out.println("Á¡¼ö°¡ 100~90Á¡ ÀÔ´Ï´Ù.");
-			System.out.println("µî±ŞÀº A ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ê°€ 100~90ì  ì…ë‹ˆë‹¤.");
+			System.out.println("ë“±ê¸‰ì€ A ì…ë‹ˆë‹¤.");
 		} else if(score >= 80) {
-			System.out.println("Á¡¼ö°¡ 89~80Á¡ ÀÔ´Ï´Ù.");
-			System.out.println("µî±ŞÀº B ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ê°€ 89~80ì  ì…ë‹ˆë‹¤.");
+			System.out.println("ë“±ê¸‰ì€ B ì…ë‹ˆë‹¤.");
 		} else if(score >= 70) {
-			System.out.println("Á¡¼ö°¡ 79~70Á¡ ÀÔ´Ï´Ù.");
-			System.out.println("µî±ŞÀº C ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ê°€ 79~70ì  ì…ë‹ˆë‹¤.");
+			System.out.println("ë“±ê¸‰ì€ C ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("Á¡¼ö°¡ 70Á¡ ¹Ì¸¸ÀÔ´Ï´Ù.");
-			System.out.println("µî±ŞÀº D ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ê°€ 70ì  ë¯¸ë§Œì…ë‹ˆë‹¤.");
+			System.out.println("ë“±ê¸‰ì€ D ì…ë‹ˆë‹¤.");
 			
-			//Á¡¼ö°¡ 79~70Á¡ ÀÔ´Ï´Ù. µî±ŞÀº C ÀÔ´Ï´Ù.
+			//ì ìˆ˜ê°€ 79~70ì  ì…ë‹ˆë‹¤. ë“±ê¸‰ì€ C ì…ë‹ˆë‹¤.
 		}
 	}
 }

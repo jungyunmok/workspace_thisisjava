@@ -1,8 +1,8 @@
 package ch06.sec07.exam01;
-
+ 
 public class CarExample {
 	public static void main(String[] args) {
-		Car myCar = new Car("±×·»Àú", "°ËÁ¤", 250);
-//		Car myCar = new Car(); //±âº» »ı¼ºÀÚ È£Ãâ ¸øÇÔ!
+		Car myCar = new Car("ê·¸ë Œì €", "ê²€ì •", 250);
+//		Car myCar = new Car(); //ê¸°ë³¸ ìƒì„±ì í˜¸ì¶œ ëª»í•¨!
 	}
 }

@@ -1,18 +1,18 @@
 package ch02.sec12;
-
+ 
 public class PrintfExample {
 	public static void main(String[] args) {
 		int value = 123;
-		System.out.printf("»óÇ°ÀÇ °¡°İ: %d¿ø\n", value); //»óÇ°ÀÇ °¡°İ: 123¿ø
-		System.out.printf("»óÇ°ÀÇ °¡°İ: %6d¿ø\n", value); //»óÇ°ÀÇ °¡°İ:    123¿ø
-		System.out.printf("»óÇ°ÀÇ °¡°İ: %-6d¿ø\n", value); //»óÇ°ÀÇ °¡°İ: 123   ¿ø
-		System.out.printf("»óÇ°ÀÇ °¡°İ: %06d¿ø\n", value); //»óÇ°ÀÇ °¡°İ: 000123¿ø
+		System.out.printf("ìƒí’ˆì˜ ê°€ê²©: %dì›\\n", value); //ìƒí’ˆì˜ ê°€ê²©: 123ì›
+		System.out.printf("ìƒí’ˆì˜ ê°€ê²©: %6dì›\\n", value); //ìƒí’ˆì˜ ê°€ê²©:    123ì›
+		System.out.printf("ìƒí’ˆì˜ ê°€ê²©: %-6dì›\\n", value); //ìƒí’ˆì˜ ê°€ê²©: 123   ì›
+		System.out.printf("ìƒí’ˆì˜ ê°€ê²©: %06dì›\\n", value); //ìƒí’ˆì˜ ê°€ê²©: 000123ì›
 		
 		double area = 3.14159 * 10 * 10;
-		System.out.printf("¹İÁö¸§ÀÌ %dÀÎ ¿øÀÇ ³ĞÀÌ: %10.2f\n", 10, area); //¹İÁö¸§ÀÌ 10ÀÎ ¿øÀÇ ³ĞÀÌ:     314.16
+		System.out.printf("ë°˜ì§€ë¦„ì´ %dì¸ ì›ì˜ ë„“ì´: %10.2f\\n", 10, area); //ë°˜ì§€ë¦„ì´ 10ì¸ ì›ì˜ ë„“ì´:     314.16
 		
-		String name = "È«±æµ¿";
-		String job = "µµÀû";
-		System.out.printf("%6d | %-10s | %10s\n", 1, name, job); //     1 | È«±æµ¿        |         µµÀû
+		String name = "í™ê¸¸ë™";
+		String job = "ë„ì ";
+		System.out.printf("%6d | %-10s | %10s\\n", 1, name, job); //     1 | í™ê¸¸ë™        |         ë„ì 
 	}
 }

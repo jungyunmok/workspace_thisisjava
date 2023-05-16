@@ -1,21 +1,21 @@
 package ch05.sec06;
-
+ 
 public class ArrayCreateByValueListExample2 {
 	public static void main(String[] args) {
-		int[] scores; //¹è¿­ º¯¼ö ¼±¾ğ
-		scores = new int[] { 83, 90, 87 }; //¹è¿­ º¯¼ö¿¡ ¹è¿­À» ´ëÀÔ
+		int[] scores; //ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸
+		scores = new int[] { 83, 90, 87 }; //ë°°ì—´ ë³€ìˆ˜ì— ë°°ì—´ì„ ëŒ€ì…
 		
 		int sum1 = 0;
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ ÃÑÇÕÀ» ±¸ÇÏ°í Ãâ·Â
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ì´í•©ì„ êµ¬í•˜ê³  ì¶œë ¥
 			sum1 += scores[i];
 		}
-		System.out.println("ÃÑÇÕ: " + sum1); //260
+		System.out.println("ì´í•©: " + sum1); //260
 		
-		printItem( new int[] {83, 90, 87} ); //¹è¿­À» ¸Å°³°ªÀ¸·Î ÁÖ°í, printItem() ¸Ş¼Òµå È£Ãâ
+		printItem( new int[] {83, 90, 87} ); //ë°°ì—´ì„ ë§¤ê°œê°’ìœ¼ë¡œ ì£¼ê³ , printItem() ë©”ì†Œë“œ í˜¸ì¶œ
 	}
 	
-	public static void printItem( int[] scores) { //printItem() ¸Ş¼Òµå ¼±¾ğ
-		for(int i=0; i<3; i++) { //¸Å°³º¯¼ö°¡ ÂüÁ¶ÇÏ´Â ¹è¿­ÀÇ Ç×¸ñÀ» Ãâ·Â
+	public static void printItem( int[] scores) { //printItem() ë©”ì†Œë“œ ì„ ì–¸
+		for(int i=0; i<3; i++) { //ë§¤ê°œë³€ìˆ˜ê°€ ì°¸ì¡°í•˜ëŠ” ë°°ì—´ì˜ í•­ëª©ì„ ì¶œë ¥
 			System.out.println("score[" + i + "]: " + scores[i]);
 		}
 //		score[0]: 83

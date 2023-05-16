@@ -1,10 +1,10 @@
 package ch03.sec03;
-
+ 
 public class OverflowUnderflowExample {
 	public static void main(String[] args) {
 		byte var1 = 125;
-		for(int i=0; i<5; i++) { //{}¸¦ 5¹ø ¹Ýº¹ ½ÇÇà
-			var1++; //var1ÀÇ °ª 1 Áõ°¡
+		for(int i=0; i<5; i++) { //{}ë¥¼ 5ë²ˆ ë°˜ë³µ ì‹¤í–‰
+			var1++; //var1ì˜ ê°’ 1 ì¦ê°€
 			System.out.println(var1); //126, 127, -128, -127, -126
 		}
 		
@@ -12,7 +12,7 @@ public class OverflowUnderflowExample {
 		
 		byte var2 = -125;
 		for(int i=0; i<5; i++) {
-			var2--; //var2ÀÇ °ª 1 °¨¼Ò
+			var2--; //var2ì˜ ê°’ 1 ê°ì†Œ
 			System.out.println(var2); //-126, -127, -128, 127, 126
 		}
 	}

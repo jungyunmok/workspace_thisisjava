@@ -1,40 +1,40 @@
 package ch04;
-
+ 
 import java.util.Scanner;
-
+ 
 public class Test6 {
 	public static void main(String[] args) {
-//		while ¹®°ú ScannerÀÇ nextLine() ¸Þ¼Òµå¸¦ ÀÌ¿ëÇØ Å°º¸µå·ÎºÎÅÍ
-//		ÀÔ·ÂµÈ µ¥ÀÌÅÍ·Î ¿¹±Ý, Ãâ±Ý, Á¶È¸, Á¾·á ±â´ÉÀ» Á¦°øÇÏ´Â ÄÚµå ÀÛ¼º
+//		while ë¬¸ê³¼ Scannerì˜ nextLine() ë©”ì†Œë“œë¥¼ ì´ìš©í•´ í‚¤ë³´ë“œë¡œë¶€í„°
+//		ìž…ë ¥ëœ ë°ì´í„°ë¡œ ì˜ˆê¸ˆ, ì¶œê¸ˆ, ì¡°íšŒ, ì¢…ë£Œ ê¸°ëŠ¥ì„ ì œê³µí•˜ëŠ” ì½”ë“œ ìž‘ì„±
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
 		int balance = 0;
 		
 		while(run) {
 			System.out.println("---------------");
-			System.out.println("1. ¿¹±Ý | 2. Ãâ±Ý | 3. ÀÜ°í | 3. Á¾·á");
+			System.out.println("1. ì˜ˆê¸ˆ | 2. ì¶œê¸ˆ | 3. ìž”ê³  | 3. ì¢…ë£Œ");
 			System.out.println("---------------");
-			System.out.print("¼±ÅÃ> ");
+			System.out.print("ì„ íƒ> ");
 			
 			int menuNum = scanner.nextInt();
 			
 			switch(menuNum) {
 				case 1 -> {
-					System.out.print("¿¹±Ý¾×> ");
+					System.out.print("ì˜ˆê¸ˆì•¡> ");
 					balance += scanner.nextInt();
 				}
 				case 2 -> {
-					System.out.print("Ãâ±Ý¾×> ");
+					System.out.print("ì¶œê¸ˆì•¡> ");
 					balance -= scanner.nextInt();
 				}
 				case 3 -> {
-					System.out.println("ÀÜ°í> " + balance);
+					System.out.println("ìž”ê³ > " + balance);
 				}
 				case 4 -> {
 					run = false;
 				}
 			}			
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 	}
 }

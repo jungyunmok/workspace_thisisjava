@@ -1,16 +1,16 @@
 package ch06.sec08.exam04;
-
+ 
 public class CalculatorExample {
 	public static void main(String[] args) {
-		Calculator myCalcu = new Calculator(); //°´Ã¼ »ı¼º
+		Calculator myCalcu = new Calculator(); //ê°ì²´ ìƒì„±
 		
-//		Á¤»ç°¢ÇüÀÇ ³ĞÀÌ ±¸ÇÏ±â
+//		ì •ì‚¬ê°í˜•ì˜ ë„“ì´ êµ¬í•˜ê¸°
 		double result1 = myCalcu.areaRectangle(10);
 		
-//		Á÷»ç°¢ÇüÀÇ ³ĞÀÌ ±¸ÇÏ±â
+//		ì§ì‚¬ê°í˜•ì˜ ë„“ì´ êµ¬í•˜ê¸°
 		double result2 = myCalcu.areaRectangle(10, 20);
 		
-		System.out.println("Á¤»ç°¢ÇüÀÇ ³ĞÀÌ= " + result1); //100.0
-		System.out.println("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ= " + result2); //200.0
+		System.out.println("ì •ì‚¬ê°í˜•ì˜ ë„“ì´= " + result1); //100.0
+		System.out.println("ì§ì‚¬ê°í˜•ì˜ ë„“ì´= " + result2); //200.0
 	}
 }

@@ -1,38 +1,38 @@
 package ch02.sec08;
-
+ 
 public class OperationPromotionExample {
 	public static void main(String[] args) {
-		byte result1 = 10 + 20; //ÄÄÆÄÀÏ ´Ü°è¿¡¼­ ¿¬»ê
+		byte result1 = 10 + 20; //ì»´íŒŒì¼ ë‹¨ê³„ì—ì„œ ì—°ì‚°
 		System.out.println(result1); //30
 		
 		byte v1 = 10;
 		byte v2 = 20;
-		int result2 = v1 + v2; //int Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ¿¬»ê
+		int result2 = v1 + v2; //int íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result2); //30
 		
 		byte v3 = 10;
 		int v4 = 100;
 		long v5 = 1000L;
-		long result3 = v3 + v4 + v5; //long Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ¿¬»ê
+		long result3 = v3 + v4 + v5; //long íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result3); //1110
 		
 		char v6 = 'A';
 		char v7 = 1;
-		int result4 = v6 + v7; //int Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ¿¬»ê
+		int result4 = v6 + v7; //int íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result4); //66
 		System.out.println((char)result4); //B
 		
 		int v8 = 10;
-		int result5 = v8 / 4; //Á¤¼ö ¿¬»êÀÇ °á°ú´Â Á¤¼ö
+		int result5 = v8 / 4; //ì •ìˆ˜ ì—°ì‚°ì˜ ê²°ê³¼ëŠ” ì •ìˆ˜
 		System.out.println(result5); //2
 		
 		int v9 = 10;
-		double result6 = v9 / 4.0; //double Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ¿¬»ê
+		double result6 = v9 / 4.0; //double íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result6); //2.5
 		
 		int v10 = 1;
 		int v11 = 2;
-		double result7 = (double) v10 / v11; //double Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ¿¬»ê
+		double result7 = (double) v10 / v11; //double íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result7); //0.5
 	}
 }

@@ -1,9 +1,9 @@
-package ch06.sec13.exam01.package2; //ÆĞÅ°Áö°¡ A, B¿Í ´Ù¸§!
-
+package ch06.sec13.exam01.package2; //íŒ¨í‚¤ì§€ê°€ A, Bì™€ ë‹¤ë¦„!
+ 
 import ch06.sec13.exam01.package1.*;
-
+ 
 public class C {
-//	ÇÊµå ¼±¾ğ
-//	A a; //ÄÄÆÄÀÏ ¿¡·¯!, AÅ¬·¡½º Á¢±Ù ºÒ°¡
+//	í•„ë“œ ì„ ì–¸
+//	A a; //ì»´íŒŒì¼ ì—ëŸ¬!, Aí´ë˜ìŠ¤ ì ‘ê·¼ ë¶ˆê°€
 	B b;
 }

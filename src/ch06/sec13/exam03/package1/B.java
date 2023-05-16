@@ -1,18 +1,18 @@
-package ch06.sec13.exam03.package1; //A¿Í °°Àº ÆĞÅ°Áö
-
+package ch06.sec13.exam03.package1; //Aì™€ ê°™ì€ íŒ¨í‚¤ì§€
+ 
 public class B {
 	public void method() {
-//		°´Ã¼ »ı¼º
+//		ê°ì²´ ìƒì„±
 		A a = new A();
 		
-//		ÇÊµå°ª º¯°æ
+//		í•„ë“œê°’ ë³€ê²½
 		a.field1 = 1;
 		a.field2 = 1;
-//		a.field3 = 1; //ÄÄÆÄÀÏ ¿¡·¯, private ÇÊµå Á¢±Ù ºÒ°¡
+//		a.field3 = 1; //ì»´íŒŒì¼ ì—ëŸ¬, private í•„ë“œ ì ‘ê·¼ ë¶ˆê°€
 		
-//		¸Ş¼Òµå È£Ãâ
+//		ë©”ì†Œë“œ í˜¸ì¶œ
 		a.method1();
 		a.method2();
-//		a.method3(); //ÄÄÆÄÀÏ ¿¡·¯, private ¸Ş¼Òµå Á¢±Ù ºÒ°¡
+//		a.method3(); //ì»´íŒŒì¼ ì—ëŸ¬, private ë©”ì†Œë“œ ì ‘ê·¼ ë¶ˆê°€
 	}
 }

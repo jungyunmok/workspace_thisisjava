@@ -1,7 +1,7 @@
 package ch05.sec12;
-
-public enum Week { //¿­°Å Å¸ÀÔ ÀÌ¸§ Week
-	MONDAY, //¿­°Å »ó¼ö ¸ñ·Ï(ÇÑÁ¤µÈ °ª ¸ñ·Ï)
+ 
+public enum Week { //ì—´ê±° íƒ€ìž… ì´ë¦„ Week
+	MONDAY, //ì—´ê±° ìƒìˆ˜ ëª©ë¡(í•œì •ëœ ê°’ ëª©ë¡)
 	TUESDAY,
 	WEDNESDAY,
 	THURDAY,

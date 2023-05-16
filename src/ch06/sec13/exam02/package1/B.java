@@ -1,8 +1,8 @@
-package ch06.sec13.exam02.package1; //ÆĞÅ°Áö°¡ A¿Í µ¿ÀÏ
-
+package ch06.sec13.exam02.package1; //íŒ¨í‚¤ì§€ê°€ Aì™€ ë™ì¼
+ 
 public class B {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	A a1 = new A(true);
 	A a2 = new A(1);
-//	A a3 = new A("¹®ÀÚ¿­"); //ÄÄÆÄÀÏ ¿¡·¯!, private »ı¼ºÀÚ Á¢±Ù ºÒ°¡
+//	A a3 = new A("ë¬¸ìì—´"); //ì»´íŒŒì¼ ì—ëŸ¬!, private ìƒì„±ì ì ‘ê·¼ ë¶ˆê°€
 }

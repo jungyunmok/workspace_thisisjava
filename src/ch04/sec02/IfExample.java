@@ -1,16 +1,18 @@
 package ch04.sec02;
-
+ 
 public class IfExample {
 	public static void main(String[] args) {
 		int score = 93;
 		
 		if(score >= 90) {
-			System.out.println("Á¡¼ö°¡ 90 ÀÌ»óÀÔ´Ï´Ù.");
-			System.out.println("µî±ŞÀº A ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ê°€ 90 ì´ìƒì…ë‹ˆë‹¤.");
+			System.out.println("ë“±ê¸‰ì€ A ì…ë‹ˆë‹¤.");
 		}
 		
 		if(score < 90)
-			System.out.println("Á¡¼ö°¡ 90 ¹Ì¸¸ÀÔ´Ï´Ù."); //{} »ı·«
-		System.out.println("µî±ŞÀº B ÀÔ´Ï´Ù."); //if ¹®°ú »ó°ü¾ø´Â ½ÇÇà¹®
+			System.out.println("ì ìˆ˜ê°€ 90 ë¯¸ë§Œì…ë‹ˆë‹¤."); //{} ìƒëµ
+		System.out.println("ë“±ê¸‰ì€ B ì…ë‹ˆë‹¤."); //if ë¬¸ê³¼ ìƒê´€ì—†ì´ ì¶œë ¥ë˜ëŠ” ì‹¤í–‰ë¬¸
+ 
+		//ì ìˆ˜ê°€ 90 ì´ìƒì…ë‹ˆë‹¤. ë“±ê¸‰ì€ A ì…ë‹ˆë‹¤. ë“±ê¸‰ì€ B ì…ë‹ˆë‹¤.
 	}
 }

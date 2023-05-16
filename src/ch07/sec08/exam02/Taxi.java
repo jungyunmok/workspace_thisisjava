@@ -1,9 +1,9 @@
 package ch07.sec08.exam02;
-
+ 
 public class Taxi extends Vehicle{
-//	¸Ş¼Òµå ÀçÁ¤ÀÇ(¿À¹ö¶óÀÌµù)
+//	ë©”ì†Œë“œ ì¬ì •ì˜(ì˜¤ë²„ë¼ì´ë”©)
 	@Override
 	public void run() {
-		System.out.println("¹ö½º°¡ ´Ş¸³´Ï´Ù.");
+		System.out.println("ë²„ìŠ¤ê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 }

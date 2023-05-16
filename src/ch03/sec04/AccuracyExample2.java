@@ -1,5 +1,5 @@
 package ch03.sec04;
-
+ 
 public class AccuracyExample2 {
 	public static void main(String[] args) {
 		int apple = 1;
@@ -7,7 +7,7 @@ public class AccuracyExample2 {
 		int number = 7;
 		
 		int result = totalPieces - number;
-		System.out.println("10Á¶°¢¿¡¼­ ³²Àº Á¶°¢: " + result); //3
-		System.out.println("»ç°ú 1°³¿¡¼­ ³²Àº ¾ç: " + result/10.0); //0.3
+		System.out.println("10ì¡°ê°ì—ì„œ ë‚¨ì€ ì¡°ê°: " + result); //3
+		System.out.println("ì‚¬ê³¼ 1ê°œì—ì„œ ë‚¨ì€ ì–‘: " + result/10.0); //0.3
 	}
 }

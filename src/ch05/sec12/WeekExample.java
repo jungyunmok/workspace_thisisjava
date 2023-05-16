@@ -1,16 +1,16 @@
 package ch05.sec12;
-
+ 
 import java.util.Calendar;
-
+ 
 public class WeekExample {
 	public static void main(String[] args) {
-		Week today = null; //Weel Å¸ÀÔ º¯¼ö today ¼±¾ğ
+		Week today = null; //Weel íƒ€ì… ë³€ìˆ˜ today ì„ ì–¸
 		
-		Calendar cal = Calendar.getInstance(); //Calendar ¾î ¤§±â
+		Calendar cal = Calendar.getInstance(); //Calendar ì–´ ã„·ê¸°
 		
-		int week = cal.get(Calendar.DAY_OF_WEEK); //¿À´ÃÀÇ ¿äÀÏ ¾ò±â(1~7)
+		int week = cal.get(Calendar.DAY_OF_WEEK); //ì˜¤ëŠ˜ì˜ ìš”ì¼ ì–»ê¸°(1~7)
 		
-//		¼ıÀÚ¸¦ ¿­°Å »ó¼ö·Î º¯È¯ÇØ¼­ º¯¼ö¿¡ ´ëÀÔ
+//		ìˆ«ìë¥¼ ì—´ê±° ìƒìˆ˜ë¡œ ë³€í™˜í•´ì„œ ë³€ìˆ˜ì— ëŒ€ì…
 		switch(week) {
 			case 1: today = Week.SUNDAY ;		break;
 			case 2: today = Week.MONDAY ;		break;
@@ -21,13 +21,13 @@ public class WeekExample {
 			case 7: today = Week.SATURDAY ;		break;
 		}
 		
-//		¿­°Å Å¸ÀÔ º¯¼ö¸¦ »ç¿ë
+//		ì—´ê±° íƒ€ì… ë³€ìˆ˜ë¥¼ ì‚¬ìš©
 		if(today == Week.SUNDAY) {
-			System.out.println("ÀÏ¿äÀÏ¿¡´Â Ãà±¸¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("ì¼ìš”ì¼ì—ëŠ” ì¶•êµ¬ë¥¼ í•©ë‹ˆë‹¤.");
 		} else {
-			System.out.println("¿­½ÉÈ÷ ÀÚ¹Ù¸¦ °øºÎÇÕ´Ï´Ù.");
+			System.out.println("ì—´ì‹¬íˆ ìë°”ë¥¼ ê³µë¶€í•©ë‹ˆë‹¤.");
 		}
 		
-//		¿­½ÉÈ÷ ÀÚ¹Ù¸¦ °øºÎÇÕ´Ï´Ù.
+//		ì—´ì‹¬íˆ ìë°”ë¥¼ ê³µë¶€í•©ë‹ˆë‹¤.
 	}
 }

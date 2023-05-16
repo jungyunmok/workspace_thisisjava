@@ -1,33 +1,33 @@
 package ch06.sec10.exam03;
-
+ 
 public class Car {
-//	ÀÎ½ºÅÏ½º ÇÊµå ¼±¾ğ
+//	ì¸ìŠ¤í„´ìŠ¤ í•„ë“œ ì„ ì–¸
 	int speed;
 	
-//	ÀÎ½ºÅÏ½º ¸Ş¼Òµå ¼±¾ğ
+//	ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì„ ì–¸
 	void run() {
-		System.out.println(speed + "À¸·Î ´Ş¸³´Ï´Ù.");
+		System.out.println(speed + "ìœ¼ë¡œ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	
 	static void simulate() {
-//		°´Ã¼ »ı¼º
+//		ê°ì²´ ìƒì„±
 		Car myCar = new Car();
-//		ÀÎ½ºÅÏ½º ¸â¹ö »ç¿ë
+//		ì¸ìŠ¤í„´ìŠ¤ ë©¤ë²„ ì‚¬ìš©
 		myCar.speed = 200;
 		myCar.run();
 	}
 	
 	public static void main(String[] args) {
-//		Á¤Àû ¸Ş¼Òµå È£Ãâ
+//		ì •ì  ë©”ì†Œë“œ í˜¸ì¶œ
 		simulate();
 		
-//		°´Ã¼ »ı¼º
+//		ê°ì²´ ìƒì„±
 		Car myCar = new Car();
-//		ÀÎ½ºÅÍ½º ¸â¹ö »ç¿ë
+//		ì¸ìŠ¤í„°ìŠ¤ ë©¤ë²„ ì‚¬ìš©
 		myCar.speed = 60;
 		myCar.run();
 	}
 	
-//	200À¸·Î ´Ş¸³´Ï´Ù.
-//	60À¸·Î ´Ş¸³´Ï´Ù.
+//	200ìœ¼ë¡œ ë‹¬ë¦½ë‹ˆë‹¤.
+//	60ìœ¼ë¡œ ë‹¬ë¦½ë‹ˆë‹¤.
 }

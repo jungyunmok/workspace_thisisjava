@@ -1,15 +1,15 @@
 package ch04.sec04;
-
+ 
 public class SumFrom1To100Example {
 	public static void main(String[] args) {
-		int sum = 0; //ÇÕ°è º¯¼ö
-		int i; //Ä«¿îÅÍ º¯¼ö
+		int sum = 0; //í•©ê³„ ë³€ìˆ˜
+		int i; //ì¹´ìš´í„° ë³€ìˆ˜
 		
 		for(i=1; i<=100; i++) {
 			sum += i;
 		}
 		
-		System.out.println("1~" + (i-1) + "ÀÇ ÇÕ: " + sum);
-		//1~100ÀÇ ÇÕ: 5050
+		System.out.println("1~" + (i-1) + "ì˜ í•©: " + sum);
+		//1~100ì˜ í•©: 5050
 	}
 }

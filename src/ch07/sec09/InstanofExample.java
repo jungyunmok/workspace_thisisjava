@@ -1,45 +1,45 @@
 package ch07.sec09;
-
+ 
 public class InstanofExample {
-//	main() ¸Ş¼Òµå¿¡¼­ ¹Ù·Î È£ÃâÇÏ±âÀ§ÇØ Á¤Àû ¸Ş¼Òµå ¼±¾ğ
+//	main() ë©”ì†Œë“œì—ì„œ ë°”ë¡œ í˜¸ì¶œí•˜ê¸°ìœ„í•´ ì •ì  ë©”ì†Œë“œ ì„ ì–¸
 	public static void personInfo(Person person) {
 		System.out.println("name: " + person.name);
 		person.walk();
-
-//		personÀÌ ÂüÁ¶ÇÏ´Â °´Ã¼°¡ Student Å¸ÀÔÀÎÁö È®ÀÎ
-//		¸Å°³°ªÀÌ StudentÀÎ °æ¿ì¿¡¸¸ °­Á¦Å¸ÀÔº¯È¯, ÇÊµå ¸Ş¼Òµå »ç¿ë
+ 
+//		personì´ ì°¸ì¡°í•˜ëŠ” ê°ì²´ê°€ Student íƒ€ì…ì¸ì§€ í™•ì¸
+//		ë§¤ê°œê°’ì´ Studentì¸ ê²½ìš°ì—ë§Œ ê°•ì œíƒ€ì…ë³€í™˜, í•„ë“œ ë©”ì†Œë“œ ì‚¬ìš©
 		/*if (person instanceof Student) {
-//			Student °´Ã¼ÀÏ °æ¿ì °­Á¦ Å¸ÀÔ º¯È¯
+//			Student ê°ì²´ì¼ ê²½ìš° ê°•ì œ íƒ€ì… ë³€í™˜
 			Student student = (Student) person;
-//			Student °´Ã¼¸¸ °¡Áö°í ÀÖ´Â ÇÊµå ¹× ¸Ş¼Òµå »ç¿ë
+//			Student ê°ì²´ë§Œ ê°€ì§€ê³  ìˆëŠ” í•„ë“œ ë° ë©”ì†Œë“œ ì‚¬ìš©
 			System.out.println("studentNo: " + student.studentNo);
 			student.study();
 		}*/
 		
-//		personÀÌ ÂüÁ¶ÇÏ´Â °´Ã¼°¡ Student Å¸ÀÔÀÏ °æ¿ì
-//		student º¯¼ö¿¡ ´ëÀÔ, Å¸ÀÔ º¯È¯ ¹ß»ı(Java12ºÎÅÍ »ç¿ë °¡´É)
+//		personì´ ì°¸ì¡°í•˜ëŠ” ê°ì²´ê°€ Student íƒ€ì…ì¼ ê²½ìš°
+//		student ë³€ìˆ˜ì— ëŒ€ì…, íƒ€ì… ë³€í™˜ ë°œìƒ(Java12ë¶€í„° ì‚¬ìš© ê°€ëŠ¥)
 		if(person instanceof Student) {
 			Student student = (Student) person;
 			System.out.println("studentNo:" + student.studentNo);
 			student.study();
 		}
 	}
-
+ 
 	public static void main(String[] args) {
-//		Person °´Ã¼¸¦ ¸Å°³°ªÀ¸·Î Á¦°øÇÏ°í personInfo() ¸Ş¼Òµå È£Ãâ
-		Person p1 = new Person("È«±æµ¿");
+//		Person ê°ì²´ë¥¼ ë§¤ê°œê°’ìœ¼ë¡œ ì œê³µí•˜ê³  personInfo() ë©”ì†Œë“œ í˜¸ì¶œ
+		Person p1 = new Person("í™ê¸¸ë™");
 		personInfo(p1);
-//		name: È«±æµ¿
-//		°È½À´Ï´Ù.
+//		name: í™ê¸¸ë™
+//		ê±·ìŠµë‹ˆë‹¤.
 		
 		System.out.println();
 		
-//		Student °´Ã¼¸¦ ¸Å°³°ªÀ¸·Î Á¦°øÇÏ°í personInfo() ¸Ş¼Òµå È£Ãâ
-		Person p2 = new Student("±è±æµ¿", 10);
+//		Student ê°ì²´ë¥¼ ë§¤ê°œê°’ìœ¼ë¡œ ì œê³µí•˜ê³  personInfo() ë©”ì†Œë“œ í˜¸ì¶œ
+		Person p2 = new Student("ê¹€ê¸¸ë™", 10);
 		personInfo(p2);
-//		name: ±è±æµ¿
-//		°È½À´Ï´Ù.
+//		name: ê¹€ê¸¸ë™
+//		ê±·ìŠµë‹ˆë‹¤.
 //		studentNo:10
-//		°øºÎ¸¦ ÇÕ´Ï´Ù.
+//		ê³µë¶€ë¥¼ í•©ë‹ˆë‹¤.
 	}
 }

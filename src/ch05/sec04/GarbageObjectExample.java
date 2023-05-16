@@ -1,14 +1,14 @@
 package ch05.sec04;
-
+ 
 public class GarbageObjectExample {
 	public static void main(String[] args) {
-		String hobby = "¿©Çó";
-		hobby = null; //"¿©Çà"¿¡ ÇØ´çÇÏ´Â String °´Ã¼¸¦ ¾²·¹±â·Î ¸¸µê
+		String hobby = "ì—¬í—¹";
+		hobby = null; //"ì—¬í–‰"ì— í•´ë‹¹í•˜ëŠ” String ê°ì²´ë¥¼ ì“°ë ˆê¸°ë¡œ ë§Œë“¦
 		
-		String kind1 = "ÀÚµ¿Â÷";
-		String kind2 = kind1; //kind1 º¯¼ö¿¡ ÀúÀåµÅ ÀÖ´Â ¹øÁö¸¦ kind2 º¯¼ö¿¡ ´ëÀÔ
-		kind1 = null; //"ÀÚµ¿Â÷"¿¡ ÇØ´çÇÏ´Â String °´Ã¼´Â ¾²·¹±â°¡ ¾Æ´Ô
-		//kind2 º¯¼ö°¡ "ÀÚµ¿Â÷" String °´Ã¼¸¦ ¿©ÀüÈ÷ ÂüÁ¶ÇÏ°í ÀÖ±â ¶§¹®!
-		System.out.println(kind2); //ÀÚµ¿Â÷
+		String kind1 = "ìë™ì°¨";
+		String kind2 = kind1; //kind1 ë³€ìˆ˜ì— ì €ì¥ë¼ ìˆëŠ” ë²ˆì§€ë¥¼ kind2 ë³€ìˆ˜ì— ëŒ€ì…
+		kind1 = null; //"ìë™ì°¨"ì— í•´ë‹¹í•˜ëŠ” String ê°ì²´ëŠ” ì“°ë ˆê¸°ê°€ ì•„ë‹˜
+		//kind2 ë³€ìˆ˜ê°€ "ìë™ì°¨" String ê°ì²´ë¥¼ ì—¬ì „íˆ ì°¸ì¡°í•˜ê³  ìˆê¸° ë•Œë¬¸!
+		System.out.println(kind2); //ìë™ì°¨
 	}
 }

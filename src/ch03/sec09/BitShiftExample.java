@@ -1,25 +1,25 @@
 package ch03.sec09;
-
+ 
 public class BitShiftExample {
 	public static void main(String[] args) {
 		int value = 772; //00000000 00000000 00000011 00000100
 		
-		//¿ìÃøÀ¸·Î 24bit ÀÌµ¿ÇÏ°í ³¡ 1¹ÙÀÌÆ®¸¸ ÀĞÀ½, 00000000
+		//ìš°ì¸¡ìœ¼ë¡œ 24bit ì´ë™í•˜ê³  ë 1ë°”ì´íŠ¸ë§Œ ì½ìŒ, 00000000
 		byte byte1 = (byte) (value >>> 24);
 		int int1 = byte1 & 255;
 		System.out.println(int1); //0
 		
-		//¿ìÃøÀ¸·Î 16bit ÀÌµ¿ÇÏ°í ³¡ 1¹ÙÀÌÆ®¸¸ ÀĞÀ½, 00000000
+		//ìš°ì¸¡ìœ¼ë¡œ 16bit ì´ë™í•˜ê³  ë 1ë°”ì´íŠ¸ë§Œ ì½ìŒ, 00000000
 		byte byte2 = (byte) (value >>> 16);
 		int int2 = Byte.toUnsignedInt(byte2);
 		System.out.println(int2); //0
 		
-		//¿ìÃøÀ¸·Î 8bit ÀÌµ¿ÇÏ°í ³¡ 1¹ÙÀÌÆ®¸¸ ÀĞÀ½, 00000011
+		//ìš°ì¸¡ìœ¼ë¡œ 8bit ì´ë™í•˜ê³  ë 1ë°”ì´íŠ¸ë§Œ ì½ìŒ, 00000011
 		byte byte3 = (byte) (value >>> 8);
 		int int3 = byte3 & 255;
 		System.out.println(int3); //3
 		
-		//³¡ 1¹ÙÀÌÆ®¸¸ ÀĞÀ½, 00000100
+		//ë 1ë°”ì´íŠ¸ë§Œ ì½ìŒ, 00000100
 		byte byte4 = (byte) value;
 		int int4 = Byte.toUnsignedInt(byte4);
 		System.out.println(int4); //4

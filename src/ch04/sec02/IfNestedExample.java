@@ -1,9 +1,9 @@
 package ch04.sec02;
-
+ 
 public class IfNestedExample {
 	public static void main(String[] args) {
-		int score = (int)(Math.random()*20) + 81; //81~100 Áß ÇÏ³ª »Ì±â
-		System.out.println("Á¡¼ö: " + score);
+		int score = (int)(Math.random()*20) + 81; //81~100 ì¤‘ í•˜ë‚˜ ë½‘ê¸°
+		System.out.println("ì ìˆ˜: " + score);
 		
 		String grade;
 		
@@ -21,6 +21,6 @@ public class IfNestedExample {
 			}
 		}
 		
-		System.out.println("ÇĞÁ¡: " + grade);
+		System.out.println("í•™ì : " + grade);
 	}
 }

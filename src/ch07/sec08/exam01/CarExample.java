@@ -1,21 +1,20 @@
 package ch07.sec08.exam01;
-
+ 
 public class CarExample {
 	public static void main(String[] args) {
-//		Car °´Ã¼ »ı¼º
+//		Car ê°ì²´ ìƒì„±
 		Car myCar = new Car();
 		
-//		Tire °´Ã¼ ÀåÂø
+//		Tire ê°ì²´ ì¥ì°©
 		myCar.tire = new Tire();
-		myCar.run(); // È¸ÀüÇÕ´Ï´Ù.
+		myCar.run(); // íšŒì „í•©ë‹ˆë‹¤.
 		
-//		HankookTire °´Ã¼ ÀåÂø
+//		HankookTire ê°ì²´ ì¥ì°©
 		myCar.tire = new HankookTire();
-		myCar.run(); // ÇÑ±¹ Å¸ÀÌ¾î°¡ È¸ÀüÇÕ´Ï´Ù.
+		myCar.run(); // í•œêµ­ íƒ€ì´ì–´ê°€ íšŒì „í•©ë‹ˆë‹¤.
 		
-//		KumhoTire °´Ã¼ ÀåÂø
+//		KumhoTire ê°ì²´ ì¥ì°©
 		myCar.tire = new KumhoTire();
-		myCar.run(); // ±İÈ£ Å¸ÀÌ¾î°¡ È¸ÀüÇÕ´Ï´Ù.
+		myCar.run(); // ê¸ˆí˜¸ íƒ€ì´ì–´ê°€ íšŒì „í•©ë‹ˆë‹¤.
 	}
-
 }

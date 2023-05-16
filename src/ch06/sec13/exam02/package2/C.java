@@ -1,10 +1,10 @@
-package ch06.sec13.exam02.package2; //A, B¿Í ÆĞÅ°Áö°¡ ´Ù¸§
-
+package ch06.sec13.exam02.package2; //A, Bì™€ íŒ¨í‚¤ì§€ê°€ ë‹¤ë¦„
+ 
 import ch06.sec13.exam02.package1.*;
-
+ 
 public class C {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	A a1 = new A(true);
-//	A a2 = new A(1); //ÄÄÆÄÀÏ ¿¡·¯!, default »ı¼ºÀÚ Á¢±Ù ºÒ°¡
-//	A a3 = new A("¹®ÀÚ¿­"); //ÄÄÆÄÀÏ ¿¡·¯!, private »ı¼ºÀÚ Á¢±Ù ºÒ°¡
+//	A a2 = new A(1); //ì»´íŒŒì¼ ì—ëŸ¬!, default ìƒì„±ì ì ‘ê·¼ ë¶ˆê°€
+//	A a3 = new A("ë¬¸ìì—´"); //ì»´íŒŒì¼ ì—ëŸ¬!, private ìƒì„±ì ì ‘ê·¼ ë¶ˆê°€
 }

@@ -1,7 +1,7 @@
-package ch06.sec03; //ÆĞÅ°Áö ¼±¾ğ
-
-public class SportsCar { //Å¬·¡½º ¼±¾ğ
+package ch06.sec03; //íŒ¨í‚¤ì§€ ì„ ì–¸
+ 
+public class SportsCar { //í´ë˜ìŠ¤ ì„ ì–¸
 }
-
-class Tire{ //º¹¼ö °³ÀÇ Å¬·¡½º ¼±¾ğÀ» Æ÷ÇÔÇÒ ¼ö ÀÖÀ½
+ 
+class Tire{ //ë³µìˆ˜ ê°œì˜ í´ë˜ìŠ¤ ì„ ì–¸
 }

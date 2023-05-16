@@ -1,14 +1,14 @@
 package ch02.sec07;
-
+ 
 public class PromotionExample {
 	public static void main(String[] args) {
 		byte byteValue = 10;
 		int intValue = byteValue;
 		System.out.println("intValue: " + intValue); //10
 		
-//		char charValue = '媛�';
-//		intValue = charValue;
-		System.out.println("媛��쓽 �쑀�땲肄붾뱶: " + intValue); //44032
+		char charValue = '가';
+		intValue = charValue;
+		System.out.println("가의 유니코드: " + intValue); //44032
 		
 		intValue = 50;
 		long longValue = intValue;

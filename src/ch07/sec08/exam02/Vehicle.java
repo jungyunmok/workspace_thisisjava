@@ -1,8 +1,8 @@
 package ch07.sec08.exam02;
-
+ 
 public class Vehicle {
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void run() {
-		System.out.println("Â÷·®ÀÌ ´Ş¸³´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ì´ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 }

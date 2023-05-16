@@ -1,8 +1,8 @@
 package ch05;
-
+ 
 public class Test1 {
 	public static void main(String[] args) {
-//		for ¹®À» ÀÌ¿ëÇØ ¹è¿­ Ç×¸ñ¿¡¼­ ÃÖ´ë°ªÀ» Ãâ·ÂÇÏ´Â ÄÚµå
+//		for ë¬¸ì„ ì´ìš©í•´ ë°°ì—´ í•­ëª©ì—ì„œ ìµœëŒ€ê°’ì„ ì¶œë ¥í•˜ëŠ” ì½”ë“œ
 		int max = 0;
 		int[] array = { 1, 5, 3, 8, 2 };
 		

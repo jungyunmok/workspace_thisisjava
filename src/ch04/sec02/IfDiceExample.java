@@ -1,21 +1,21 @@
 package ch04.sec02;
-
+ 
 public class IfDiceExample {
 	public static void main(String[] args) {
-		int num = (int)(Math.random()*6) + 1; //ÁÖ»çÀ§ ¹øÈ£ ÇÏ³ª »Ì±â
+		int num = (int)(Math.random()*6) + 1; //ì£¼ì‚¬ìœ„ ë²ˆí˜¸ í•˜ë‚˜ ë½‘ê¸°
 		
 		if(num == 1) {
-			System.out.println("1¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("1ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 2) {
-			System.out.println("2¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("2ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 3) {
-			System.out.println("3¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("3ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 4) {
-			System.out.println("4¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("4ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 5) {
-			System.out.println("5¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("5ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("6¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("6ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 	}
 }

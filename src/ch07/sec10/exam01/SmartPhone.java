@@ -1,14 +1,14 @@
 package ch07.sec10.exam01;
-
+ 
 public class SmartPhone extends Phone{
-//	»ı¼ºÀÚ ¼±¾ğ
+//	ìƒì„±ì ì„ ì–¸
 	SmartPhone(String owner) {
-		//Phone »ı¼ºÀÚ È£Ãâ
+		//Phone ìƒì„±ì í˜¸ì¶œ
 		super(owner);
 	}
 	
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	void internetSearch() {
-		System.out.println("ÀÎÅÍ³İ °Ë»öÀ» ÇÕ´Ï´Ù.");
+		System.out.println("ì¸í„°ë„· ê²€ìƒ‰ì„ í•©ë‹ˆë‹¤.");
 	}
 }

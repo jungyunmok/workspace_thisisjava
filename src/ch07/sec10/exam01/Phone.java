@@ -1,20 +1,20 @@
 package ch07.sec10.exam01;
-
+ 
 public class Phone {
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	String owner;
-
-//	»ı¼ºÀÚ ¼±¾ğ
+ 
+//	ìƒì„±ì ì„ ì–¸
 	Phone(String owner) {
 		this.owner = owner;
 	}
-
-//	¸Ş¼Òµå ¼±¾ğ
+ 
+//	ë©”ì†Œë“œ ì„ ì–¸
 	void turnOn() {
-		System.out.println("Æù Àü¿øÀ» ÄÕ´Ï´Ù.");
+		System.out.println("í° ì „ì›ì„ ì¼­ë‹ˆë‹¤.");
 	}
-
+ 
 	void turnOff() {
-		System.out.println("Æù Àü¿øÀ» ²ü´Ï´Ù.");
+		System.out.println("í° ì „ì›ì„ ë•ë‹ˆë‹¤.");
 	}
 }

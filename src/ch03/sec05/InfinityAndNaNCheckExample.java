@@ -1,5 +1,5 @@
 package ch03.sec05;
-
+ 
 public class InfinityAndNaNCheckExample {
 	public static void main(String[] args) {
 		int x = 5;
@@ -10,8 +10,8 @@ public class InfinityAndNaNCheckExample {
 		System.out.println(z1 + 2);
 		System.out.println(z2 + 2);
 		
-		if(Double.isInfinite(z1) || Double.isNaN(z1)) {
-			System.out.println("°ª »êÃâ ºÒ°¡");
+		if(Double.isInfinite(z1) || Double.isNaN(z1)) { //ë‘˜ ì¤‘ í•˜ë‚˜ê°€ trueë©´ true
+			System.out.println("ê°’ ì‚°ì¶œ ë¶ˆê°€");
 		} else {
 			System.out.println(z1 + 2);
 		}

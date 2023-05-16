@@ -1,15 +1,15 @@
 package ch06.sec08.exam02;
-
+ 
 public class Computer {
-//	°¡º¯±æÀÌ ¸Å°³º¯¼ö¸¦ °®´Â ¸Ş¼Òµå ¼±¾ğ
+//	ê°€ë³€ê¸¸ì´ ë§¤ê°œë³€ìˆ˜ë¥¼ ê°–ëŠ” ë©”ì†Œë“œ ì„ ì–¸
 	int sum(int ... values) {
-		int sum = 0; //sum º¯¼ö ¼±¾ğ
+		int sum = 0; //sum ë³€ìˆ˜ ì„ ì–¸
 		
-//		values´Â ¹è¿­ Å¸ÀÔÀÇ º¯¼öÃ³·³ »ç¿ë
+//		valuesëŠ” ë°°ì—´ íƒ€ì…ì˜ ë³€ìˆ˜ì²˜ëŸ¼ ì‚¬ìš©
 		for(int i=0; i<values.length; i++) {
 			sum += values[i];
 		}
 		
-		return sum; //ÇÕ»ê °á°ú¸¦ ¸®ÅÏ
+		return sum; //í•©ì‚° ê²°ê³¼ë¥¼ ë¦¬í„´
 	}
 }

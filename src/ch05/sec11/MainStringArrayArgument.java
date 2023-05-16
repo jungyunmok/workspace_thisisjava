@@ -1,16 +1,16 @@
 package ch05.sec11;
-
+ 
 public class MainStringArrayArgument {
 	public static void main(String[] args) {
-		if(args.length != 2) { //ÀÔ·ÂµÈ µ¥ÀÌÅÍ °³¼ö°¡ 2°³°¡ ¾Æ´Ò °æ¿ì
-			System.out.println("ÇÁ·Î±×·¥ ÀÔ·Â°ª ºÎÁ·");
-			System.exit(0); //ÇÁ·Î±×·¥ °­Á¦ Á¾·á
+		if(args.length != 2) { //ì…ë ¥ëœ ë°ì´í„° ê°œìˆ˜ê°€ 2ê°œê°€ ì•„ë‹ ê²½ìš°
+			System.out.println("í”„ë¡œê·¸ë¨ ì…ë ¥ê°’ ë¶€ì¡±");
+			System.exit(0); //í”„ë¡œê·¸ë¨ ê°•ì œ ì¢…ë£Œ
 		}
 		
-		String strNum1 = args[0]; //Ã¹¹øÂ° µ¥ÀÌÅÍ ¾ò±â
-		String strNum2 = args[1]; //µÎ¹øÂ° µ¥ÀÌÅÍ ¾ò±â
+		String strNum1 = args[0]; //ì²«ë²ˆì§¸ ë°ì´í„° ì–»ê¸°
+		String strNum2 = args[1]; //ë‘ë²ˆì§¸ ë°ì´í„° ì–»ê¸°
 		
-		int num1 = Integer.parseInt(strNum1); //¹®ÀÚ¿­À» Á¤¼ö·Î º¯È¯
+		int num1 = Integer.parseInt(strNum1); //ë¬¸ìì—´ì„ ì •ìˆ˜ë¡œ ë³€í™˜
 		int num2 = Integer.parseInt(strNum2);
 		
 		int result = num1 + num2;

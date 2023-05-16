@@ -1,22 +1,22 @@
 package ch04.sec06;
-
+ 
 import java.util.Scanner;
-
+ 
 public class DoWhileExample {
 	public static void main(String[] args) {
-		System.out.println("¸Ş½ÃÁö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-		System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÏ·Á¸é q¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ë©”ì‹œì§€ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+		System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•˜ë ¤ë©´ që¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		
-		Scanner scanner = new Scanner(System.in); //Scanner »ı¼º
+		Scanner scanner = new Scanner(System.in); //Scanner ìƒì„±
 		String inputString;
 		
 		do {
 			System.out.println(">");
-			inputString = scanner.nextLine(); //Å°º¸µå·ÎºÎÅÍ ÀĞ±â
+			inputString = scanner.nextLine(); //í‚¤ë³´ë“œë¡œë¶€í„° ì½ê¸°
 			System.out.println(inputString);
-		} while(! inputString.equals("q")); //ÀÔ·Â ³»¿ëÀÌ q°¡ ¾Æ´Ï¶ó¸é °è¼Ó ¹İº¹
+		} while(! inputString.equals("q")); //ì…ë ¥ ë‚´ìš©ì´ qê°€ ì•„ë‹ˆë¼ë©´ ê³„ì† ë°˜ë³µ
 		
 		System.out.println();
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

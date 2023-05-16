@@ -1,12 +1,12 @@
 package ch06.sec06.exam01;
-
+ 
 public class CarExample {
 	public static void main(String[] args) {
-		Car myCar = new Car(); //Car °´Ã¼ »ı¼º
+		Car myCar = new Car(); //Car ê°ì²´ ìƒì„±
 		
-//		Car °´Ã¼ÀÇ ÇÊµå°ª ÀĞ±â
-		System.out.println("¸ğµ¨¸í: " + myCar.model); //null
-		System.out.println("½Ãµ¿¿©ºÎ: " + myCar.start); //false
-		System.out.println("ÇöÀç¼Óµµ: " + myCar.speed); //0
+//		Car ê°ì²´ì˜ í•„ë“œê°’ ì½ê¸°
+		System.out.println("ëª¨ë¸ëª…: " + myCar.model); //null
+		System.out.println("ì‹œë™ì—¬ë¶€: " + myCar.start); //false
+		System.out.println("í˜„ì¬ì†ë„: " + myCar.speed); //0
 	}
 }

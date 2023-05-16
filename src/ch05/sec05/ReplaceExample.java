@@ -1,11 +1,11 @@
 package ch05.sec05;
-
+ 
 public class ReplaceExample {
 	public static void main(String[] args) {
-		String oldStr = "ÀÚ¹Ù ¹®ÀÚ¿­Àº ºÒº¯ÀÔ´Ï´Ù. ÀÚ¹Ù ¹®ÀÚ¿­Àº StringÀÔ´Ï´Ù.";
-		String newStr = oldStr.replace("ÀÚ¹Ù", "JAVA");
+		String oldStr = "ìë°” ë¬¸ìì—´ì€ ë¶ˆë³€ì…ë‹ˆë‹¤. ìë°” ë¬¸ìì—´ì€ Stringì…ë‹ˆë‹¤.";
+		String newStr = oldStr.replace("ìë°”", "JAVA");
 		
-		System.out.println(oldStr); //ÀÚ¹Ù ¹®ÀÚ¿­Àº ºÒº¯ÀÔ´Ï´Ù. ÀÚ¹Ù ¹®ÀÚ¿­Àº StringÀÔ´Ï´Ù.
-		System.out.println(newStr); //JAVA ¹®ÀÚ¿­Àº ºÒº¯ÀÔ´Ï´Ù. JAVA ¹®ÀÚ¿­Àº StringÀÔ´Ï´Ù.
+		System.out.println(oldStr); //ìë°” ë¬¸ìì—´ì€ ë¶ˆë³€ì…ë‹ˆë‹¤. ìë°” ë¬¸ìì—´ì€ Stringì…ë‹ˆë‹¤.
+		System.out.println(newStr); //JAVA ë¬¸ìì—´ì€ ë¶ˆë³€ì…ë‹ˆë‹¤. JAVA ë¬¸ìì—´ì€ Stringì…ë‹ˆë‹¤.
 	}
 }

@@ -1,12 +1,12 @@
 package ch06.sec08.exam04;
-
+ 
 public class Calculator {
-//	Á¤»ç°¢ÇüÀÇ ³ĞÀÌ
+//	ì •ì‚¬ê°í˜•ì˜ ë„“ì´
 	double areaRectangle(double width) {
 		return width * width;
 	}
 	
-//	Á÷»ç°¢ÇüÀÇ ³ĞÀÌ, areaRectangle() ¸Ş¼Òµå¸¦ ¿À¹ö·Îµù
+//	ì§ì‚¬ê°í˜•ì˜ ë„“ì´, areaRectangle() ë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¡œë”©
 	double areaRectangle(double width, double height) {
 		return width * height;
 	}

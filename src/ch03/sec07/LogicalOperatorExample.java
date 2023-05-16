@@ -1,33 +1,33 @@
 package ch03.sec07;
-
+ 
 public class LogicalOperatorExample {
 	public static void main(String[] args) {
-//		int charCode = 'A'; //´ë¹®ÀÚÀÔ´Ï´Ù.
-//		int charCode = 'a'; //¼Ò¹®ÀÚÀÔ´Ï´Ù.
-		int charCode = '5'; //0~9 ¼ıÀÚÀÔ´Ï´Ù.
+//		int charCode = 'A'; //ëŒ€ë¬¸ìì…ë‹ˆë‹¤.
+//		int charCode = 'a'; //ì†Œë¬¸ìì…ë‹ˆë‹¤.
+		int charCode = '5'; //0~9 ìˆ«ìì…ë‹ˆë‹¤.
 		
 		if( (65<=charCode) & (charCode<=90) ) {
-			System.out.println("´ë¹®ÀÚÀÔ´Ï´Ù.");
+			System.out.println("ëŒ€ë¬¸ìì…ë‹ˆë‹¤.");
 		}
 		
 		if( (97<=charCode) && (charCode<=122) ) {
-			System.out.println("¼Ò¹®ÀÚÀÔ´Ï´Ù.");
+			System.out.println("ì†Œë¬¸ìì…ë‹ˆë‹¤.");
 		}
 		
 		if( (45<=charCode) && (charCode<=57) ) {
-			System.out.println("0~9 ¼ıÀÚÀÔ´Ï´Ù.");
+			System.out.println("0~9 ìˆ«ìì…ë‹ˆë‹¤.");
 		}
 		
-//		int value = 6; //2 ¶Ç´Â 3ÀÇ ¹è¼öÀÔ´Ï´Ù.
-		int value = 7; //2 ¶Ç´Â 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.
+//		int value = 6; //2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.
+		int value = 7; //2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.
 		
 		if( (value%2==0) | (value%3==0) ) {
-			System.out.println("2 ¶Ç´Â 3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println("2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 		
 		boolean result = (value%2==0) || (value%3==0);
 		if( !result ) {
-			System.out.println("2 ¶Ç´Â 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("2 ë˜ëŠ” 3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 }

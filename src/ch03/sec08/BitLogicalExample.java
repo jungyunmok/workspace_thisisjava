@@ -1,5 +1,5 @@
 package ch03.sec08;
-
+ 
 public class BitLogicalExample {
 	public static void main(String[] args) {
 		System.out.println((45 & 25)); //9
@@ -10,11 +10,11 @@ public class BitLogicalExample {
 		
 		byte receiveData = -128;
 		
-		//¹æ¹ı1: ºñÆ® ³í¸®°ö ¿¬»êÀ¸·Î Unsigned Á¤¼ö ¾ò±â
+		//ë°©ë²•1: ë¹„íŠ¸ ë…¼ë¦¬ê³± ì—°ì‚°ìœ¼ë¡œ Unsigned ì •ìˆ˜ ì–»ê¸°
 		int unsignedInt1 = receiveData & 255;
 		System.out.println(unsignedInt1); //128
 		
-		//¹æ¹ı2: ÀÚ¹Ù API¸¦ ÀÌ¿ëÇØ¼­ Unsigned Á¤¼ö ¾ò±â
+		//ë°©ë²•2: ìë°” APIë¥¼ ì´ìš©í•´ì„œ Unsigned ì •ìˆ˜ ì–»ê¸°
 		int unsignedInt2 = Byte.toUnsignedInt(receiveData);
 		System.out.println(unsignedInt2); //128
 		

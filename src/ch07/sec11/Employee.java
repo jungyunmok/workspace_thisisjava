@@ -1,8 +1,8 @@
 package ch07.sec11;
-
+ 
 public final class Employee extends Person {
 	@Override
 	public void work() {
-		System.out.println("Á¦Ç°À» »ı»êÇÕ´Ï´Ù.");
+		System.out.println("ì œí’ˆì„ ìƒì‚°í•©ë‹ˆë‹¤.");
 	}
 }

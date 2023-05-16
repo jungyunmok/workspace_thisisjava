@@ -1,17 +1,17 @@
 package ch07.sec10.exam01;
-
+ 
 public class PhoneExample {
 	public static void main(String[] args) {
-//		Phone phone = new Phone(); -> »ç¿ëºÒ°¡!
+//		Phone phone = new Phone(); -> ì‚¬ìš©ë¶ˆê°€!
 		
-		SmartPhone smartPhone = new SmartPhone("È«±æµ¿");
+		SmartPhone smartPhone = new SmartPhone("í™ê¸¸ë™");
 		
-		smartPhone.turnOn(); // Phone ¸Ş¼Òµå
+		smartPhone.turnOn(); // Phone ë©”ì†Œë“œ
 		smartPhone.internetSearch();
-		smartPhone.turnOff(); // Phone ¸Ş¼Òµå
+		smartPhone.turnOff(); // Phone ë©”ì†Œë“œ
 		
-//		Æù Àü¿øÀ» ÄÕ´Ï´Ù.
-//		ÀÎÅÍ³İ °Ë»öÀ» ÇÕ´Ï´Ù.
-//		Æù Àü¿øÀ» ²ü´Ï´Ù.
+//		í° ì „ì›ì„ ì¼­ë‹ˆë‹¤.
+//		ì¸í„°ë„· ê²€ìƒ‰ì„ í•©ë‹ˆë‹¤.
+//		í° ì „ì›ì„ ë•ë‹ˆë‹¤.
 	}
 }

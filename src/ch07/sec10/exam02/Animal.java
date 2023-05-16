@@ -1,11 +1,11 @@
 package ch07.sec10.exam02;
-
+ 
 public abstract class Animal {
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void breathe() {
-		System.out.println("¼ûÀ» ½±´Ï´Ù.");
+		System.out.println("ìˆ¨ì„ ì‰½ë‹ˆë‹¤.");
 	}
 	
-//	Ãß»ó ¸Ş¼Òµå ¼±¾ğ
+//	ì¶”ìƒ ë©”ì†Œë“œ ì„ ì–¸
 	public abstract void sound();
 }

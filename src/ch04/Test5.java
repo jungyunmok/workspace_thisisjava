@@ -1,8 +1,8 @@
 package ch04;
-
+ 
 public class Test5 {
 	public static void main(String[] args) {
-//		for¹®À» ÀÌ¿ëÇØ ¾Æ·¡ÀÇ ¹®ÀÚ¸¦ Ãâ·Â
+//		forë¬¸ì„ ì´ìš©í•´ ì•„ë˜ì˜ ë¬¸ìë¥¼ ì¶œë ¥
 //		*
 //		**
 //		***

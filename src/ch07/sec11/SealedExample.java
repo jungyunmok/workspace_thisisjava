@@ -1,5 +1,5 @@
 package ch07.sec11;
-
+ 
 public class SealedExample {
 	public static void main(String[] args) {
 		Person p = new Person();
@@ -7,9 +7,9 @@ public class SealedExample {
 		Manager m = new Manager();
 		Director d = new Director();
 		
-		p.work(); // ÇÏ´Â ÀÏÀÌ °áÁ¤µÇÁö ¾Ê¾Ò½À´Ï´Ù.
-		e.work(); // Á¦Ç°À» »ı»êÇÕ´Ï´Ù.
-		m.work(); // »ı»ê °ü¸®¸¦ ÇÕ´Ï´Ù.
-		d.work(); // Á¦Ç°À» ±âÈ¹ÇÕ´Ï´Ù.
+		p.work(); // í•˜ëŠ” ì¼ì´ ê²°ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+		e.work(); // ì œí’ˆì„ ìƒì‚°í•©ë‹ˆë‹¤.
+		m.work(); // ìƒì‚° ê´€ë¦¬ë¥¼ í•©ë‹ˆë‹¤.
+		d.work(); // ì œí’ˆì„ ê¸°íší•©ë‹ˆë‹¤.
 	}
 }

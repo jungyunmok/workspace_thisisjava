@@ -1,10 +1,10 @@
 package ch07.sec07.exam03;
-
+ 
 public class Child {
-	// ÇÊµå ¼±¾ð
+	// í•„ë“œ ì„ ì–¸
 	public String field2;
-
-	// ¸Þ¼Òµå ¼±¾ð
+ 
+	// ë©”ì†Œë“œ ì„ ì–¸
 	public void method3() {
 		System.out.println("Child-method3()");
 	}

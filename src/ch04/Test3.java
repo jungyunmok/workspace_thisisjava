@@ -1,9 +1,9 @@
 package ch04;
-
-public class test3 {
+ 
+public class Test3 {
 	public static void main(String[] args) {
-//		while ¹®°ú Math.random() ¸Ş¼Òµå¸¦ ÀÌ¿ëÇØ ÁÖ»çÀ§ ´øÁ³À» ¶§ ³ª¿À´Â ´«À»
-//		(´«1, ´«2) ÇüÅÂ·Î Ãâ·ÂÇÏ°í, ÇÕÀÌ 5ÀÏ¶§¸¸ ½ÇÇàÀ» ¸ØÃß´Â ÄÚµå
+//		while ë¬¸ê³¼ Math.random() ë©”ì†Œë“œë¥¼ ì´ìš©í•´ ì£¼ì‚¬ìœ„ ë˜ì¡Œì„ ë•Œ ë‚˜ì˜¤ëŠ” ëˆˆì„
+//		(ëˆˆ1, ëˆˆ2) í˜•íƒœë¡œ ì¶œë ¥í•˜ê³ , í•©ì´ 5ì¼ë•Œë§Œ ì‹¤í–‰ì„ ë©ˆì¶”ëŠ” ì½”ë“œ
 		while(true) {
 			int num1 = (int)(Math.random()*6) + 1;
 			int num2 = (int)(Math.random()*6) + 1;

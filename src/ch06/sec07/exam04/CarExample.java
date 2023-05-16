@@ -1,23 +1,23 @@
 package ch06.sec07.exam04;
-
+ 
 public class CarExample {
 	public static void main(String[] args) {
-		Car car1 = new Car(); //»ı¼ºÀÚ1 È£Ãâ
+		Car car1 = new Car(); //ìƒì„±ì1 í˜¸ì¶œ
 		System.out.println("car1.company: " + car1.company);
 		System.out.println();
 		
-		Car car2 = new Car("ÀÚ°¡¿ë"); //»ı¼ºÀÚ2 È£Ãâ, String ÀÔ·Â
+		Car car2 = new Car("ìê°€ìš©"); //ìƒì„±ì2 í˜¸ì¶œ, String ì…ë ¥
 		System.out.println("car2.company: " + car2.company);
 		System.out.println("car2.model: " + car2.model);
 		System.out.println();
 		
-		Car car3 = new Car("ÀÚ°¡¿ë", "»¡°­"); //»ı¼ºÀÚ3 È£Ãâ, String String ÀÔ·Â
+		Car car3 = new Car("ìê°€ìš©", "ë¹¨ê°•"); //ìƒì„±ì3 í˜¸ì¶œ, String String ì…ë ¥
 		System.out.println("car3.company: " + car3.company);
 		System.out.println("car3.model: " + car3.model);
 		System.out.println("car3.color: " + car3.color);
 		System.out.println();
 		
-		Car car4 = new Car("ÀÚ°¡¿ë", "°ËÁ¤", 200); //»ı¼ºÀÚ3 È£Ãâ, String String int ÀÔ·Â
+		Car car4 = new Car("ìê°€ìš©", "ê²€ì •", 200); //ìƒì„±ì3 í˜¸ì¶œ, String String int ì…ë ¥
 		System.out.println("car4.company: " + car4.company);
 		System.out.println("car4.model: " + car4.model);
 		System.out.println("car4.color: " + car4.color);
@@ -25,17 +25,17 @@ public class CarExample {
 		System.out.println();
 	}
 	
-//	car1.company: Çö´ëÀÚµ¿Â÷
+//	car1.company: í˜„ëŒ€ìë™ì°¨
 //
-//	car2.company: Çö´ëÀÚµ¿Â÷
-//	car2.model: ÀÚ°¡¿ë
+//	car2.company: í˜„ëŒ€ìë™ì°¨
+//	car2.model: ìê°€ìš©
 //
-//	car3.company: Çö´ëÀÚµ¿Â÷
-//	car3.model: ÀÚ°¡¿ë
-//	car3.color: »¡°­
+//	car3.company: í˜„ëŒ€ìë™ì°¨
+//	car3.model: ìê°€ìš©
+//	car3.color: ë¹¨ê°•
 //
-//	car4.company: Çö´ëÀÚµ¿Â÷
-//	car4.model: ÀÚ°¡¿ë
-//	car4.color: °ËÁ¤
+//	car4.company: í˜„ëŒ€ìë™ì°¨
+//	car4.model: ìê°€ìš©
+//	car4.color: ê²€ì •
 //	car4.maxSpeed: 200
 }

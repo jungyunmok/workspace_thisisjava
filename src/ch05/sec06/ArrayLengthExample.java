@@ -1,16 +1,16 @@
 package ch05.sec06;
-
+ 
 public class ArrayLengthExample {
 	public static void main(String[] args) {
-		int[] scores = { 84, 90, 96 }; //¹è¿­ º¯¼ö ¼±¾ð°ú ¹è¿­ ´ëÀÔ
+		int[] scores = { 84, 90, 96 }; //ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ëŒ€ìž…
 		
-		int sum = 0; //¹è¿­ Ç×¸ñÀÇ ÃÑÇÕ ±¸ÇÏ±â
-		for(int i=0; i<scores.length; i++) { //length´Â 3
+		int sum = 0; //ë°°ì—´ í•­ëª©ì˜ ì´í•© êµ¬í•˜ê¸°
+		for(int i=0; i<scores.length; i++) { //lengthëŠ” 3
 			sum += scores[i];
 		}
-		System.out.println("ÃÑÇÕ: " + sum); //270
+		System.out.println("ì´í•©: " + sum); //270
 		
 		double avg = (double) sum / scores.length;
-		System.out.println("Æò±Õ: " + avg); //90.0
+		System.out.println("í‰ê· : " + avg); //90.0
 	}
 }

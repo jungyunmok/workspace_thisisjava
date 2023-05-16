@@ -1,12 +1,12 @@
 package ch03.sec09;
-
+ 
 public class BitShiftExample2 {
 	public static void main(String[] args) {
 		int num1 = 1;
 		int result1 = num1 << 3;
 		int result2 = num1 * (int) Math.pow(2, 3);
-		//Math.pow(2, 3)Àº 2^3À» ¿¬»êÇÏ°í double°ªÀ» »êÃâ
-		//int °ªÀ¸·Î ¾ò°í ½Í´Ù¸é (int)·Î Ä³½ºÆÃÇØ¾ßÇÔ
+		//Math.pow(2, 3)ì€ 2^3ì„ ì—°ì‚°í•˜ê³  doubleê°’ì„ ì‚°ì¶œ
+		//int ê°’ìœ¼ë¡œ ì–»ê³  ì‹¶ë‹¤ë©´ (int)ë¡œ ìºìŠ¤íŒ…í•´ì•¼í•¨
 		System.out.println(result1); //8
 		System.out.println(result2); //8
 		

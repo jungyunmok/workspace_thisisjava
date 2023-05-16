@@ -1,5 +1,5 @@
 package ch03.sec02;
-
+ 
 public class ArithmeticOperatorExample {
 	public static void main(String[] args) {
 		byte v1 = 10;
@@ -7,13 +7,13 @@ public class ArithmeticOperatorExample {
 		int v3 = 5;
 		long v4 = 10L;
 		
-		int result1 = v1 + v2; //¸ğµç ÇÇ¿¬»êÀÚ´Â int Å¸ÀÔÀ¸·Î ÀÚµ¿ º¯È¯ ÈÄ ¿¬»ê
+		int result1 = v1 + v2; //ëª¨ë“  í”¼ì—°ì‚°ìëŠ” int íƒ€ì…ìœ¼ë¡œ ìë™ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result1); //14
 		
-		long result2 = v1 + v2 - v4; //¸ğµç ÇÇ¿¬»êÀÚ´Â long Å¸ÀÔÀ¸·Î ÀÚµ¿ º¯È¯ ÈÄ ¿¬»ê
+		long result2 = v1 + v2 - v4; //ëª¨ë“  í”¼ì—°ì‚°ìëŠ” long íƒ€ì…ìœ¼ë¡œ ìë™ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result2); //4
 		
-		double result3 = (double) v1 / v2; //double Å¸ÀÔÀ¸·Î °­Á¦ º¯È¯ ÈÄ ¿¬»ê
+		double result3 = (double) v1 / v2; //double íƒ€ì…ìœ¼ë¡œ ê°•ì œ ë³€í™˜ í›„ ì—°ì‚°
 		System.out.println(result3); //2.5
 		
 		int result4 = v1 % v2;

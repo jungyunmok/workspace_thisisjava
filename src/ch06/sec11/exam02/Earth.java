@@ -1,13 +1,13 @@
 package ch06.sec11.exam02;
-
+ 
 public class Earth {
-//	»ó¼ö ¼±¾ð ¹× ÃÊ±âÈ­
+//	ìƒìˆ˜ ì„ ì–¸ ë° ì´ˆê¸°í™”
 	static final double EARTH_RADIUS = 6400;
 	
-//	»ó¼ö ¼±¾ð
+//	ìƒìˆ˜ ì„ ì–¸
 	static final double EARTH_SURFACE_AREA;
 	
-//	Á¤Àû ºí·Ï¿¡¼­ »ó¼ö ÃÊ±âÈ­
+//	ì •ì  ë¸”ë¡ì—ì„œ ìƒìˆ˜ ì´ˆê¸°í™”
 	static {
 			EARTH_SURFACE_AREA = 4 * Math.PI * EARTH_RADIUS * EARTH_RADIUS;
 	}

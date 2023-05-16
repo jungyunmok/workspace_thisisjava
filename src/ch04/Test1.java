@@ -1,8 +1,8 @@
 package ch04;
-
-public class test1 {
+ 
+public class Test1 {
 	public static void main(String[] args) {
-		//¾Æ·¡ÀÇ switch ¹®À» Expression(Ç¥Çö½Ä)À¸·Î º¯°æÇÏ±â
+		//ì•„ëž˜ì˜ switch ë¬¸ì„ Expression(í‘œí˜„ì‹)ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
 		String grade = "B";
 		
 		int score1 = 0;
@@ -17,9 +17,9 @@ public class test1 {
 			default:
 				score1 = 60;
 		}
-		System.out.println(score1);
+		System.out.println(score1); //80
 		
-		//Expression(Ç¥Çö½Ä)À¸·Î º¯°æ
+		//Expression(í‘œí˜„ì‹)ìœ¼ë¡œ ë³€ê²½
 		int score2 = switch(grade) {
 			case "A" -> 100;
 			case "B" -> {
@@ -29,6 +29,6 @@ public class test1 {
 			default -> 60;
 		};
 		
-		System.out.println(score2);
+		System.out.println(score2); //80
 	}
 }

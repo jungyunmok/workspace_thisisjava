@@ -1,32 +1,32 @@
 package ch06.sec08.exam03;
-
+ 
 public class Car {
-	int gas; //ÇÊµå ¼±¾ğ
+	int gas; //í•„ë“œ ì„ ì–¸
 	
-//	¸®ÅÏ°ªÀÌ ¾ø´Â ¸Ş¼Òµå·Î ¸Å°³°ªÀ» ¹Ş¾Æ¼­ gas ÇÊµå°ªÀ» º¯°æ
+//	ë¦¬í„´ê°’ì´ ì—†ëŠ” ë©”ì†Œë“œë¡œ ë§¤ê°œê°’ì„ ë°›ì•„ì„œ gas í•„ë“œê°’ì„ ë³€ê²½
 	void setGas(int gas) {
 		this.gas = gas;
 	}
 	
-//	¸®ÅÏ°ªÀÌ booleanÀÎ ¸Ş¼Òµå·Î gas ÇÊµå°ªÀÌ 0ÀÌ¸é false, 0ÀÌ ¾Æ´Ï¸é true¸¦ ¸®ÅÏ
+//	ë¦¬í„´ê°’ì´ booleanì¸ ë©”ì†Œë“œë¡œ gas í•„ë“œê°’ì´ 0ì´ë©´ false, 0ì´ ì•„ë‹ˆë©´ trueë¥¼ ë¦¬í„´
 	boolean isLeftGas() {
 		if(gas == 0) {
-			System.out.println("gas°¡ ¾ø½À´Ï´Ù");
-			return false; //false¸¦ ¸®ÅÏÇÏ°í ¸Ş¼Òµå Á¾È¿
+			System.out.println("gasê°€ ì—†ìŠµë‹ˆë‹¤");
+			return false; //falseë¥¼ ë¦¬í„´í•˜ê³  ë©”ì†Œë“œ ì¢…íš¨
 		}
-		System.out.println("gas°¡ ÀÖ½À´Ï´Ù.");
-		return true; //true¸¦ ¸®ÅÏÇÏ°í ¸Ş¼Òµå Á¾·á 
+		System.out.println("gasê°€ ìˆìŠµë‹ˆë‹¤.");
+		return true; //trueë¥¼ ë¦¬í„´í•˜ê³  ë©”ì†Œë“œ ì¢…ë£Œ 
 	}
 	
-//	¸®ÅÏ°ªÀÌ ¾ø´Â ¸Ş¼Òµå·Î gas ÇÊµå°ªÀÌ 0ÀÌ¸é return ¹®À¸·Î ¸Ş¼Òµå¸¦ Á¾·á
+//	ë¦¬í„´ê°’ì´ ì—†ëŠ” ë©”ì†Œë“œë¡œ gas í•„ë“œê°’ì´ 0ì´ë©´ return ë¬¸ìœ¼ë¡œ ë©”ì†Œë“œë¥¼ ì¢…ë£Œ
 	void run() {
 		while(true) {
 			if(gas > 0) {
-				System.out.println("´Ş¸³´Ï´Ù. (gasÀÜ·®: " + gas + ")");
+				System.out.println("ë‹¬ë¦½ë‹ˆë‹¤. (gasì”ëŸ‰: " + gas + ")");
 				gas -= 1;
 			} else {
-				System.out.println("¸ØÃä´Ï´Ù. (gasÀÜ·®: " + gas + ")");
-				return; //¸Ş¼Òµå Á¾·á
+				System.out.println("ë©ˆì¶¥ë‹ˆë‹¤. (gasì”ëŸ‰: " + gas + ")");
+				return; //ë©”ì†Œë“œ ì¢…ë£Œ
 			}
 		}
 	}

@@ -1,25 +1,25 @@
 package ch06.sec07.exam04;
-
+ 
 public class Car {
-//	ÇÊµå ¼±¾ğ
-	String company = "Çö´ëÀÚµ¿Â÷";
+//	í•„ë“œ ì„ ì–¸
+	String company = "í˜„ëŒ€ìë™ì°¨";
 	String model;
 	String color;
 	int maxSpeed;
 	
-//	»ı¼ºÀÚ ¼±¾ğ
-	Car() {} //»ı¼ºÀÚ1
+//	ìƒì„±ì ì„ ì–¸
+	Car() {} //ìƒì„±ì1
 	
-	Car(String model) { //»ı¼ºÀÚ2
+	Car(String model) { //ìƒì„±ì2
 		this.model = model;
 	}
 	
-	Car(String model, String color) { //»ı¼ºÀÚ3
+	Car(String model, String color) { //ìƒì„±ì3
 		this.model = model;
 		this.color = color;
 	}
 	
-	Car(String model, String color, int maxSpeed) { //»ı¼ºÀÚ4
+	Car(String model, String color, int maxSpeed) { //ìƒì„±ì4
 		this.model = model;
 		this.color = color;
 		this.maxSpeed = maxSpeed;

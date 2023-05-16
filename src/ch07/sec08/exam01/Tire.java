@@ -1,8 +1,8 @@
 package ch07.sec08.exam01;
-
+ 
 public class Tire {
-//	¸Þ¼Òµå ¼±¾ð
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void roll() {
-		System.out.println("È¸ÀüÇÕ´Ï´Ù.");
+		System.out.println("íšŒì „í•©ë‹ˆë‹¤.");
 	}
 }

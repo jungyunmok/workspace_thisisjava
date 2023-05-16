@@ -1,7 +1,7 @@
 package ch07.sec08.exam02;
-
+ 
 public class Driver {
-//	¸Ş¼Òµå ¼±¾ğ(Å¬·¡½º Å¸ÀÔÀÇ ¸Å°³º¯¼ö¸¦ °¡Áö°í ÀÖÀ½)
+//	ë©”ì†Œë“œ ì„ ì–¸(í´ë˜ìŠ¤ íƒ€ì…ì˜ ë§¤ê°œë³€ìˆ˜ë¥¼ ê°€ì§€ê³  ìˆìŒ)
 	public void drive(Vehicle vehicle) {
 		vehicle.run();
 	}

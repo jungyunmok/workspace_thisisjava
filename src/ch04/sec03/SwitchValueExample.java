@@ -1,10 +1,10 @@
 package ch04.sec03;
-
+ 
 public class SwitchValueExample {
 	public static void main(String[] args) {
 		String grade = "B";
 		
-		//Java 11 ÀÌÀü ¹®¹ý
+		//Java 11 ì´ì „ ë¬¸ë²•
 		int score1 = 0;
 		switch(grade) {
 		case "A":
@@ -19,12 +19,12 @@ public class SwitchValueExample {
 		}
 		System.out.println(score1); //80
 		
-		//Java 12ºÎÅÍ °¡´É
+		//Java 12ë¶€í„° ê°€ëŠ¥
 		int score2 = switch(grade) {
 		case "A" -> 100;
 		case "B" -> {
 			int result = 100 - 20;
-			//Java 13ºÎÅÍ °¡´É
+			//Java 13ë¶€í„° ê°€ëŠ¥
 			yield result;
 		}
 		default -> 60;

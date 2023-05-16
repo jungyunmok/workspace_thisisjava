@@ -1,32 +1,32 @@
 package ch06.sec08.exam01;
-
+ 
 public class CalculatorExample {
 	public static void main(String[] args) {
-//		Calculator °´Ã¼ »ı¼º
+//		Calculator ê°ì²´ ìƒì„±
 		Calculator myCalc = new Calculator();
 		
-//		¸®ÅÏ°ªÀÌ ¾ø´Â powerOn() ¸Ş¼Òµå È£Ãâ
+//		ë¦¬í„´ê°’ì´ ì—†ëŠ” powerOn() ë©”ì†Œë“œ í˜¸ì¶œ
 		myCalc.powerOn();
 		
-//		plus ¸Ş¼Òµå È£Ãâ ½Ã 5¿Í 6À» ¸Å°³°ªÀ¸·Î Á¦°øÇÏ°í,
-//		µ¡¼À °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result1 º¯¼ö¿¡ ´ëÀÔ
+//		plus ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ 5ì™€ 6ì„ ë§¤ê°œê°’ìœ¼ë¡œ ì œê³µí•˜ê³ ,
+//		ë§ì…ˆ ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result1 ë³€ìˆ˜ì— ëŒ€ì…
 		int result1 = myCalc.plus(5, 6);
 		System.out.println("result1: " + result1);
 		
 		int x = 10;
 		int y = 4;
 		
-//		divide() ¸Ş¼Òµå È£Ãâ ½Ã º¯¼ö x¿Í yÀÇ °ªÀ» ¸Å°³°ªÀ¸·Î Á¦°øÇÏ°í,
-//		³ª´°¼À °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result2 º¯¼ö¿¡ ´ëÀÔ
+//		divide() ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ ë³€ìˆ˜ xì™€ yì˜ ê°’ì„ ë§¤ê°œê°’ìœ¼ë¡œ ì œê³µí•˜ê³ ,
+//		ë‚˜ëˆ—ì…ˆ ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result2 ë³€ìˆ˜ì— ëŒ€ì…
 		double result2 = myCalc.divide(x, y);
 		System.out.println("result2: " + result2);
 		
-//		¸®ÅÏ°ªÀÌ ¾ø´Â powerOff() ¸Ş¼Òµå È£Ãâ
+//		ë¦¬í„´ê°’ì´ ì—†ëŠ” powerOff() ë©”ì†Œë“œ í˜¸ì¶œ
 		myCalc.powerOff();
 	}
 	
-//	Àü¿øÀ» ÄÕ´Ï´Ù.
+//	ì „ì›ì„ ì¼­ë‹ˆë‹¤.
 //	result1: 11
 //	result2: 2.5
-//	Àü¿øÀ» ²ü´Ï´Ù.
+//	ì „ì›ì„ ë•ë‹ˆë‹¤.
 }

@@ -1,10 +1,10 @@
 package ch05.sec05;
-
+ 
 public class EmptyStringExample {
 	public static void main(String[] args) {
 		String hobby = "";
 		if(hobby.equals("")) {
-			System.out.println("hobby º¯¼ö°¡ ÂüÁ¶ÇÏ´Â String °´Ã¼´Â ºó ¹®ÀÚ¿­");
+			System.out.println("hobby ë³€ìˆ˜ê°€ ì°¸ì¡°í•˜ëŠ” String ê°ì²´ëŠ” ë¹ˆ ë¬¸ìì—´");
 		}
 	}
 }

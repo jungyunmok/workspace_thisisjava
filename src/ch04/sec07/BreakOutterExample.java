@@ -1,7 +1,7 @@
 package ch04.sec07;
-
+ 
 public class BreakOutterExample {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		Outter: for(char upper='A'; upper<='Z'; upper++) {
 			for(char lower='a'; lower<='z'; lower++) {
 				System.out.println(upper + "-" + lower);
@@ -10,7 +10,7 @@ public class BreakOutterExample {
 				}
 			}
 		}
-		System.out.println("ÇÁ·Î±×·¥ ½ÇÇà Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì¢…ë£Œ");
 		
 //		A-a
 //		A-b
@@ -19,6 +19,6 @@ public class BreakOutterExample {
 //		A-e
 //		A-f
 //		A-g
-//		ÇÁ·Î±×·¥ ½ÇÇà Á¾·á
+//		í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì¢…ë£Œ
 	}
 }

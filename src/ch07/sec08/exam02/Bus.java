@@ -1,9 +1,9 @@
 package ch07.sec08.exam02;
-
+ 
 public class Bus extends Vehicle{
-//	¸Ş¼Òµå ÀçÁ¤ÀÇ(¿À¹ö¶óÀÌµù)
+//	ë©”ì†Œë“œ ì¬ì •ì˜(ì˜¤ë²„ë¼ì´ë”©)
 	@Override
 	public void run() {
-		System.out.println("ÅÃ½Ã°¡ ´Ş¸³´Ï´Ù.");
+		System.out.println("íƒì‹œê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 }

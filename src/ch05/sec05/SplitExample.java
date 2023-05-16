@@ -1,30 +1,30 @@
 package ch05.sec05;
-
+ 
 public class SplitExample {
 	public static void main(String[] args) {
-		String board = "1, ÀÚ¹ÙÇĞ½À, ÂüÁ¶ Å¸ÀÔ StringÀ» ÇĞ½ÀÇÕ´Ï´Ù, È«±æµ¿";
+		String board = "1, ìë°”í•™ìŠµ, ì°¸ì¡° íƒ€ì… Stringì„ í•™ìŠµí•©ë‹ˆë‹¤, í™ê¸¸ë™";
 		
-//		¹®ÀÚ¿­ ºĞ¸®
+//		ë¬¸ìì—´ ë¶„ë¦¬
 		String[] tokens = board.split(", ");
 		
-//		ÀÎµ¦½ºº°·Î ÀĞ±â
-		System.out.println("¹øÈ£: " + tokens[0]);
-		System.out.println("Á¦¸ñ" + tokens[1]);
-		System.out.println("³»¿ë: " + tokens[2]);
-		System.out.println("¼º¸í: " + tokens[3]);
+//		ì¸ë±ìŠ¤ë³„ë¡œ ì½ê¸°
+		System.out.println("ë²ˆí˜¸: " + tokens[0]);
+		System.out.println("ì œëª©" + tokens[1]);
+		System.out.println("ë‚´ìš©: " + tokens[2]);
+		System.out.println("ì„±ëª…: " + tokens[3]);
 		System.out.println();
-//		¹øÈ£: 1
-//		Á¦¸ñÀÚ¹ÙÇĞ½À
-//		³»¿ë: ÂüÁ¶ Å¸ÀÔ StringÀ» ÇĞ½ÀÇÕ´Ï´Ù
-//		¼º¸í: È«±æµ¿
+//		ë²ˆí˜¸: 1
+//		ì œëª©ìë°”í•™ìŠµ
+//		ë‚´ìš©: ì°¸ì¡° íƒ€ì… Stringì„ í•™ìŠµí•©ë‹ˆë‹¤
+//		ì„±ëª…: í™ê¸¸ë™
 		
-//		for ¹®À» ÀÌ¿ëÇÑ ÀĞ±â
+//		for ë¬¸ì„ ì´ìš©í•œ ì½ê¸°
 		for(int i=0; i<tokens.length; i++) {
 			System.out.println(tokens[i]);
 		}
 //		1
-//		ÀÚ¹ÙÇĞ½À
-//		ÂüÁ¶ Å¸ÀÔ StringÀ» ÇĞ½ÀÇÕ´Ï´Ù
-//		È«±æµ¿
+//		ìë°”í•™ìŠµ
+//		ì°¸ì¡° íƒ€ì… Stringì„ í•™ìŠµí•©ë‹ˆë‹¤
+//		í™ê¸¸ë™
 	}
 }

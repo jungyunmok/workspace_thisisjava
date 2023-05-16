@@ -1,17 +1,17 @@
 package ch07.sec09;
-
+ 
 public class Student extends Person{
-//	ÇÊµå ¼±¾ğ
+//	í•„ë“œ ì„ ì–¸
 	public int studentNo;
 	
-//	»ı¼ºÀÚ ¼±¾ğ
+//	ìƒì„±ì ì„ ì–¸
 	public Student(String name, int studentNo) {
 		super(name);
 		this.studentNo = studentNo;
 	}
 	
-//	¸Ş¼Òµå ¼±¾ğ
+//	ë©”ì†Œë“œ ì„ ì–¸
 	public void study() {
-		System.out.println("°øºÎ¸¦ ÇÕ´Ï´Ù.");
+		System.out.println("ê³µë¶€ë¥¼ í•©ë‹ˆë‹¤.");
 	}
 }

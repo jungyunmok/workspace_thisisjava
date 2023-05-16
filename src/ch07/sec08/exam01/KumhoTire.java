@@ -1,9 +1,9 @@
 package ch07.sec08.exam01;
-
+ 
 public class KumhoTire extends Tire{
-//	¸Ş¼Òµå ÀçÁ¤ÀÇ(¿À¹ö¶óÀÌµù)
+//	ë©”ì†Œë“œ ì¬ì •ì˜(ì˜¤ë²„ë¼ì´ë”©)
 	@Override
 	public void roll() {
-		System.out.println("±İÈ£ Å¸ÀÌ¾î°¡ È¸ÀüÇÕ´Ï´Ù.");
+		System.out.println("ê¸ˆí˜¸ íƒ€ì´ì–´ê°€ íšŒì „í•©ë‹ˆë‹¤.");
 	}
 }

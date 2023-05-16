@@ -1,48 +1,48 @@
 package ch05.sec06;
-
+ 
 public class ArrayCreateByNewExample {
 	public static void main(String[] args) {
-		int[] arr1 = new int[3]; //¹è¿­ º¯¼ö ¼±¾ð°ú ¹è¿­ »ý¼º
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ ÃÊ±â°ª Ãâ·Â
+		int[] arr1 = new int[3]; //ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ì´ˆê¸°ê°’ ì¶œë ¥
 			System.out.print("arr[" + i + "]: " + arr1[i] + ", ");			
 		}
 		System.out.println();
 		
-		arr1[0] = 10; //¹è¿­ Ç×¸ñÀÇ °ª º¯°æ
+		arr1[0] = 10; //ë°°ì—´ í•­ëª©ì˜ ê°’ ë³€ê²½
 		arr1[1] = 20;
 		arr1[2] = 30;
 		
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ º¯°æ °ª Ãâ·Â
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ë³€ê²½ ê°’ ì¶œë ¥
 			System.out.print("arr[" + i + "]: " + arr1[i] + ", ");
 		}
-		System.out.println("\n");
+		System.out.println("\\n");
 		
 		
-		double[] arr2 = new double[3]; //¹è¿­ º¯¼ö ¼±¾ð°ú ¹è¿­ »ý¼º
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ ÃÊ±â°ª Ãâ·Â
+		double[] arr2 = new double[3]; //ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ì´ˆê¸°ê°’ ì¶œë ¥
 			System.out.print("arr2[" + i + "]: " + arr2[i] + ", ");
 		}
 		System.out.println();
 		
-		arr2[0] = 0.1; //¹è¿­ Ç×¸ñÀÇ °ª º¯°æ
+		arr2[0] = 0.1; //ë°°ì—´ í•­ëª©ì˜ ê°’ ë³€ê²½
 		arr2[1] = 0.2;
 		arr2[2] = 0.3;
 		
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ º¯°æ °ª Ãâ·Â
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ë³€ê²½ ê°’ ì¶œë ¥
 			System.out.print("arr2[" + i + "]: " + arr2[i] + ", ");
 		}
-		System.out.println("\n");
+		System.out.println("\\n");
 		
 		
-		String[] arr3 = new String[3]; //¹è¿­ º¯¼ö ¼±¾ð°ú ¹è¿­ »ý¼º
-		for(int i=0; i<3; i++) { //¹è¿­ Ç×¸ñÀÇ ÃÊ±â°ª Ãâ·Â
+		String[] arr3 = new String[3]; //ë°°ì—´ ë³€ìˆ˜ ì„ ì–¸ê³¼ ë°°ì—´ ìƒì„±
+		for(int i=0; i<3; i++) { //ë°°ì—´ í•­ëª©ì˜ ì´ˆê¸°ê°’ ì¶œë ¥
 			System.out.print("arr3[" + i + "]: " + arr3[i] + ", ");
 		}
 		System.out.println();
 		
-		arr3[0] = "1¿ù"; //¹è¿­ Ç×¸ñÀÇ °ª º¯°æ
-		arr3[1] = "2¿ù";
-		arr3[2] = "3¿ù";
+		arr3[0] = "1ì›”"; //ë°°ì—´ í•­ëª©ì˜ ê°’ ë³€ê²½
+		arr3[1] = "2ì›”";
+		arr3[2] = "3ì›”";
 		
 		for(int i = 0; i<3; i++) {
 			System.out.print("arr3[" + i + "]: " + arr3[i] + ", ");
@@ -54,6 +54,6 @@ public class ArrayCreateByNewExample {
 //		arr2[0]: 0.1, arr2[1]: 0.2, arr2[2]: 0.3, 
 //
 //		arr3[0]: null, arr3[1]: null, arr3[2]: null, 
-//		arr3[0]: 1¿ù, arr3[1]: 2¿ù, arr3[2]: 3¿ù, 
+//		arr3[0]: 1ì›”, arr3[1]: 2ì›”, arr3[2]: 3ì›”, 
 	}
 }

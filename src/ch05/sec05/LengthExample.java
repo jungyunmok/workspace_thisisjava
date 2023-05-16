@@ -1,14 +1,14 @@
 package ch05.sec05;
-
+ 
 public class LengthExample {
 	public static void main(String[] args) {
 		String ssn = "9506251230123";
 		int length = ssn.length();
 		if(length == 13) {
-			System.out.println("ÁÖ¹Îµî·Ï¹øÈ£ ÀÚ¸´¼ö°¡ ¸Â½À´Ï´Ù.");
+			System.out.println("ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ ìë¦¿ìˆ˜ê°€ ë§ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("ÁÖ¹Îµî·Ï¹øÈ£ ÀÚ¸´¼ö°¡ Æ²¸³´Ï´Ù.");
+			System.out.println("ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ ìë¦¿ìˆ˜ê°€ í‹€ë¦½ë‹ˆë‹¤.");
 		}
-//		ÁÖ¹Îµî·Ï¹øÈ£ ÀÚ¸´¼ö°¡ ¸Â½À´Ï´Ù.
+//		ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ ìë¦¿ìˆ˜ê°€ ë§ìŠµë‹ˆë‹¤.
 	}
 }

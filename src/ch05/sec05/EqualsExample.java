@@ -1,35 +1,35 @@
 package ch05.sec05;
-
+ 
 public class EqualsExample {
 	public static void main(String[] args) {
-		String strVar1 = "È«±æµ¿";
-		String strVar2 = "È«±æµ¿";
+		String strVar1 = "í™ê¸¸ë™";
+		String strVar2 = "í™ê¸¸ë™";
 		
 		if(strVar1 == strVar2) {
-			System.out.println("strVar1°ú strVar2´Â ÂüÁ¶°¡ °°À½");
+			System.out.println("strVar1ê³¼ strVar2ëŠ” ì°¸ì¡°ê°€ ê°™ìŒ");
 		} else {
-			System.out.println("strVar1°ú strVar2´Â ÂüÁ¶°¡ ´Ù¸§");
+			System.out.println("strVar1ê³¼ strVar2ëŠ” ì°¸ì¡°ê°€ ë‹¤ë¦„");
 		}
 		
 		if(strVar1.equals(strVar2)) {
-			System.out.println("strVar1°ú strVar2´Â ¹®ÀÚ¿­ÀÌ °°À½");
+			System.out.println("strVar1ê³¼ strVar2ëŠ” ë¬¸ìì—´ì´ ê°™ìŒ");
 		}
-//		strVar1°ú strVar2´Â ÂüÁ¶°¡ °°À½
-//		strVar1°ú strVar2´Â ¹®ÀÚ¿­ÀÌ °°À½
+//		strVar1ê³¼ strVar2ëŠ” ì°¸ì¡°ê°€ ê°™ìŒ
+//		strVar1ê³¼ strVar2ëŠ” ë¬¸ìì—´ì´ ê°™ìŒ
 		
-		String strVar3 = new String("È«±æµ¿");
-		String strVar4 = new String("È«±æµ¿");
+		String strVar3 = new String("í™ê¸¸ë™");
+		String strVar4 = new String("í™ê¸¸ë™");
 		
 		if(strVar3 == strVar4) {
-			System.out.println("strVar3°ú strVar4´Â ÂüÁ¶°¡ °°À½");
+			System.out.println("strVar3ê³¼ strVar4ëŠ” ì°¸ì¡°ê°€ ê°™ìŒ");
 		} else {
-			System.out.println("strVar3°ú strVar4´Â ÂüÁ¶°¡ ´Ù¸§");
+			System.out.println("strVar3ê³¼ strVar4ëŠ” ì°¸ì¡°ê°€ ë‹¤ë¦„");
 		}
 		
 		if(strVar3.equals(strVar4)) {
-			System.out.println("strVar3°ú strVar4´Â ¹®ÀÚ¿­ÀÌ °°À½");
+			System.out.println("strVar3ê³¼ strVar4ëŠ” ë¬¸ìì—´ì´ ê°™ìŒ");
 		}
-//		strVar3°ú strVar4´Â ÂüÁ¶°¡ ´Ù¸§
-//		strVar3°ú strVar4´Â ¹®ÀÚ¿­ÀÌ °°À½
+//		strVar3ê³¼ strVar4ëŠ” ì°¸ì¡°ê°€ ë‹¤ë¦„
+//		strVar3ê³¼ strVar4ëŠ” ë¬¸ìì—´ì´ ê°™ìŒ
 	}
 }

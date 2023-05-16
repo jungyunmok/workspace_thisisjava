@@ -1,10 +1,10 @@
 package ch04.sec08;
-
+ 
 public class ContinueExample {
 	public static void main(String[] args) throws Exception{
 		for(int i=1; i<=10; i++) {
-			if(i%2 != 0) { //È¦¼öÀÎ °æ¿ì, 2·Î ³ª´« ³ª¸ÓÁö°¡ 0ÀÌ ¾Æ´Ñ °æ¿ì
-				continue; //Áõ°¨½ÄÀ¸·Î ¹Ù·Î ÀÌµ¿, Â¦¼ö¸¸ Ãâ·ÂµÊ
+			if(i%2 != 0) { //í™€ìˆ˜ì¸ ê²½ìš°, 2ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ê°€ 0ì´ ì•„ë‹Œ ê²½ìš°
+				continue; //ì¦ê°ì‹ìœ¼ë¡œ ë°”ë¡œ ì´ë™, ì§ìˆ˜ë§Œ ì¶œë ¥ë¨
 			}
 			System.out.print(i + " "); //2 4 6 8 10 
 		}

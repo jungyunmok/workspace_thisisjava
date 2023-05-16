@@ -1,8 +1,8 @@
 package ch07.sec11;
-
+ 
 public class Director extends Manager {
 	@Override
 	public void work() {
-		System.out.println("Á¦Ç°À» ±âÈ¹ÇÕ´Ï´Ù.");
+		System.out.println("ì œí’ˆì„ ê¸°íší•©ë‹ˆë‹¤.");
 	}
 }

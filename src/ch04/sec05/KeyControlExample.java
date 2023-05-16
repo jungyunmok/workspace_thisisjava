@@ -1,32 +1,32 @@
 package ch04.sec05;
-
+ 
 import java.util.Scanner;
-
+ 
 public class KeyControlExample {
 	public static void main(String[] args) throws Exception{
-		Scanner scanner = new Scanner(System.in); //Scanner »ı¼º
-		boolean run = true; //while ¹®ÀÇ Á¶°Ç½ÄÀ» À§ÇÑ º¯¼ö ¼±¾ğ
+		Scanner scanner = new Scanner(System.in); //Scanner ìƒì„±
+		boolean run = true; //while ë¬¸ì˜ ì¡°ê±´ì‹ì„ ìœ„í•œ ë³€ìˆ˜ ì„ ì–¸
 		int speed = 0;
 		
 		while(run) {
 			System.out.println("=====");
-			System.out.println("1. Áõ¼Ó | 2. °¨¼Ó | 3. ÁßÁö");
+			System.out.println("1. ì¦ì† | 2. ê°ì† | 3. ì¤‘ì§€");
 			System.out.println("=====");
-			System.out.println("¼±ÅÃ: ");
+			System.out.println("ì„ íƒ: ");
 			
-			String strNum = scanner.nextLine(); //Å°º¸µå ÀÔ·Â ³»¿ëÀ» ÀĞÀ½
+			String strNum = scanner.nextLine(); //í‚¤ë³´ë“œ ì…ë ¥ ë‚´ìš©ì„ ì½ìŒ
 			
 			if(strNum.equals("1")) {
 				speed++;
-				System.out.println("ÇöÀç ¼Óµµ= " + speed);
+				System.out.println("í˜„ì¬ ì†ë„= " + speed);
 			} else if(strNum.equals("2")) {
 				speed--;
-				System.out.println("ÇöÀç ¼Óµµ= " + speed);
+				System.out.println("í˜„ì¬ ì†ë„= " + speed);
 			} else if(strNum.equals("3")) {
-				run = false; //while¹®ÀÇ Á¶°Ç½ÄÀ» false·Î ¸¸µê
+				run = false; //whileë¬¸ì˜ ì¡°ê±´ì‹ì„ falseë¡œ ë§Œë“¦
 			}
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

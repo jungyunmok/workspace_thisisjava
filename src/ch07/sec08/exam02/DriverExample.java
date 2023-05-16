@@ -1,18 +1,18 @@
 package ch07.sec08.exam02;
-
+ 
 public class DriverExample {
 	public static void main(String[] args) {
-//		Driver °´Ã¼ »ı¼º
+//		Driver ê°ì²´ ìƒì„±
 		Driver driver = new Driver();
 		
-//		¸Å°³°ªÀ¸·Î Bus °´Ã¼¸¦ Á¦°øÇÏ°í driver() ¸Ş¼Òµå È£Ãâ
+//		ë§¤ê°œê°’ìœ¼ë¡œ Bus ê°ì²´ë¥¼ ì œê³µí•˜ê³  driver() ë©”ì†Œë“œ í˜¸ì¶œ
 		Bus bus = new Bus();
-		driver.drive(bus); // driver.drive(new Bus())¿Í µ¿ÀÏ
-		// ÅÃ½Ã°¡ ´Ş¸³´Ï´Ù.
+		driver.drive(bus); // driver.drive(new Bus())ì™€ ë™ì¼
+		// íƒì‹œê°€ ë‹¬ë¦½ë‹ˆë‹¤.
 		
-//		¸Å°³°ªÀ¸·Î Taxi °´Ã¼¸¦ Á¦°øÇÏ°í driver() ¸Ş¼Òµå È£Ãâ
+//		ë§¤ê°œê°’ìœ¼ë¡œ Taxi ê°ì²´ë¥¼ ì œê³µí•˜ê³  driver() ë©”ì†Œë“œ í˜¸ì¶œ
 		Taxi taxi = new Taxi();
-		driver.drive(taxi); // driver.drive(new Taxi())¿Í µ¿ÀÏ
-		// ¹ö½º°¡ ´Ş¸³´Ï´Ù.
+		driver.drive(taxi); // driver.drive(new Taxi())ì™€ ë™ì¼
+		// ë²„ìŠ¤ê°€ ë‹¬ë¦½ë‹ˆë‹¤.
 	}
 }

@@ -1,8 +1,8 @@
 package ch05;
-
+ 
 public class Test2 {
 	public static void main(String[] args) {
-//		ÁßÃ¸ for ¹®À» ÀÌ¿ëÇØ ¹è¿­ Ç×¸ñÀÇ ÀüÃ¼ ÇÕ°ú Æò±ÕÀ» Ãâ·ÂÇÏ´Â ÄÚµå
+//		ì¤‘ì²© for ë¬¸ì„ ì´ìš©í•´ ë°°ì—´ í•­ëª©ì˜ ì „ì²´ í•©ê³¼ í‰ê· ì„ ì¶œë ¥í•˜ëŠ” ì½”ë“œ
 		int[][] array = {
 				{95, 86},
 				{83, 92, 96},
@@ -21,7 +21,7 @@ public class Test2 {
 		}
 		avg = (double) sum / count;
 		
-		System.out.println(sum); //ÃÑÇÕ 881
-		System.out.println(avg); //Æò±Õ 88.1
+		System.out.println(sum); //ì´í•© 881
+		System.out.println(avg); //í‰ê·  88.1
 	}
 }

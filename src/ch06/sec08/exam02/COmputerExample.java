@@ -1,27 +1,27 @@
 package ch06.sec08.exam02;
-
+ 
 public class COmputerExample {
 	public static void main(String[] args) {
-		Computer myCom = new Computer(); //Computer °´Ã¼ »ı¼º
+		Computer myCom = new Computer(); //Computer ê°ì²´ ìƒì„±
 		
-//		sum() ¸Ş¼Òµå È£Ãâ ½Ã ¸Å°³°ª 1, 2, 3À» Á¦°øÇÏ°í
-//		ÇÕ»ê °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result1 º¯¼ö¿¡ ´ëÀÔ
+//		sum() ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ ë§¤ê°œê°’ 1, 2, 3ì„ ì œê³µí•˜ê³ 
+//		í•©ì‚° ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result1 ë³€ìˆ˜ì— ëŒ€ì…
 		int result1 = myCom.sum(1, 2, 3);
 		System.out.println(result1); //6
 		
-//		sum() ¸Ş¼Òµå È£Ãâ ½Ã ¸Å°³°ª 1, 2, 3, 4, 5¸¦ Á¦°øÇÏ°í
-//		ÇÕ»ì °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result2 º¯¼ö¿¡ ´ëÀÔ
+//		sum() ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ ë§¤ê°œê°’ 1, 2, 3, 4, 5ë¥¼ ì œê³µí•˜ê³ 
+//		í•©ì‚´ ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result2 ë³€ìˆ˜ì— ëŒ€ì…
 		int result2 = myCom.sum(1, 2, 3, 4, 5);
 		System.out.println(result2); //15
 		
-//		sum() ¸Ş¼Òµå È£Ãâ ½Ã º­¿­À» Á¦°øÇÏ°í
-//		ÇÕ»ì °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result3 º¯¼ö¿¡ ´ëÀÔ
+//		sum() ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ ë²¼ì—´ì„ ì œê³µí•˜ê³ 
+//		í•©ì‚´ ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result3 ë³€ìˆ˜ì— ëŒ€ì…
 		int[] values = { 1, 2, 3, 4, 5 };
 		int result3 = myCom.sum(values);
 		System.out.println(result3); //15
 		
-//		sum() ¸Ş¼Òµå È£Ãâ ½Ã ¹è¿­À» Á¦°øÇÏ°í
-//		ÇÕ»ê °á°ú¸¦ ¸®ÅÏ¹Ş¾Æ result4 º¯¼ö¿¡ ´ëÀÔ
+//		sum() ë©”ì†Œë“œ í˜¸ì¶œ ì‹œ ë°°ì—´ì„ ì œê³µí•˜ê³ 
+//		í•©ì‚° ê²°ê³¼ë¥¼ ë¦¬í„´ë°›ì•„ result4 ë³€ìˆ˜ì— ëŒ€ì…
 		int result4 = myCom.sum(new int[] { 1, 2, 3, 4, 5 });
 		System.out.println(result4); //15
 	}

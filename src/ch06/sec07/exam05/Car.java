@@ -1,18 +1,18 @@
 package ch06.sec07.exam05;
-
+ 
 public class Car {
-//	ÇÊµå ¼±¾ğ
-	String company = "Çö´ëÀÚµ¿Â÷";
+//	í•„ë“œ ì„ ì–¸
+	String company = "í˜„ëŒ€ìë™ì°¨";
 	String model;
 	String color;
 	int maxSpeed;
 	
 	Car(String model) {
-		this(model, "Àº»ö", 250); //18¶óÀÎ »ı¼ºÀÚ È£Ãâ
+		this(model, "ì€ìƒ‰", 250); //18ë¼ì¸ ìƒì„±ì í˜¸ì¶œ
 	}
 	
 	Car(String model, String color) {
-		this(model, color, 250); //18¶óÀÎ »ı¼ºÀÚ È£Ãâ
+		this(model, color, 250); //18ë¼ì¸ ìƒì„±ì í˜¸ì¶œ
 	}
 	
 	Car(String model, String color, int maxSpeed) {
