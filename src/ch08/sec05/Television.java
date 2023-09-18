@@ -1,6 +1,6 @@
 package ch08.sec05;
 
-public class Television implements RemoteControl {
+public class Television implements ch08.sec06.RemoteControl {
 	// 필드
 	private int volume;
 	

@@ -1,6 +1,6 @@
 package ch08.sec05;
 
-public class Audio implements RemoteControl {
+public class Audio implements ch08.sec06.RemoteControl {
 	// 필드
 	private int volume;
 
